@@ -1,0 +1,633 @@
+{
+	"type": 4,
+	"name": "Dashboard",
+	"shortTableName": "dashboard",
+	"caseSensitiveSearch": "",
+	"pageSizeSelectorRecords": [
+		"10",
+		"20",
+		"30",
+		"50",
+		"100",
+		"500",
+		"1"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"1"
+	],
+	"detailsBadgeColor": "008B8B",
+	"warnLeavingEdit": true,
+	"afterEditAction": 0,
+	"afterEditDetails": 7,
+	"afterAddDetail": 7,
+	"dashSearchFields": [
+		{
+			"refs": [
+				{
+					"table": "vehiculos Estado",
+					"field": "cantidad"
+				}
+			],
+			"labels": {
+				"Spanish": "Cantidad"
+			},
+			"field": "vehiculos_Estado_cantidad",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "vehiculos Estado",
+					"field": "Estado"
+				}
+			],
+			"labels": {
+				"Spanish": "Estado"
+			},
+			"field": "vehiculos_Estado_Estado",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "vehiculos Chart",
+					"field": "cant"
+				}
+			],
+			"labels": {
+				"Spanish": "Cant"
+			},
+			"field": "vehiculos_Chart_cant",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "vehiculos Chart",
+					"field": "Ciudad"
+				}
+			],
+			"labels": {
+				"Spanish": "Ciudad"
+			},
+			"field": "vehiculos_Chart_Ciudad",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "vehicxanio",
+					"field": "COUNT(idVehiculo)"
+				}
+			],
+			"labels": {
+				"Spanish": "COUNT(id Vehiculo)"
+			},
+			"field": "vehicxanio_COUNT_idVehiculo_",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "futMant Report",
+					"field": "idVehiculo"
+				}
+			],
+			"labels": {
+				"Spanish": "Vehículo"
+			},
+			"field": "futMant_Report_idVehiculo",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "futMant Report",
+					"field": "km"
+				}
+			],
+			"labels": {
+				"Spanish": "Km"
+			},
+			"field": "futMant_Report_km",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "futMant Report",
+					"field": "idComponente"
+				}
+			],
+			"labels": {
+				"Spanish": "Id Componente"
+			},
+			"field": "futMant_Report_idComponente",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "futMant Report",
+					"field": "km_p"
+				}
+			],
+			"labels": {
+				"Spanish": "Km Frec."
+			},
+			"field": "futMant_Report_km_p",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "futMant Report",
+					"field": "km_s"
+				}
+			],
+			"labels": {
+				"Spanish": "Km p/Serv."
+			},
+			"field": "futMant_Report_km_s",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "futMant Report",
+					"field": "km ult.Serv."
+				}
+			],
+			"labels": {
+				"Spanish": "Km Ult.Serv."
+			},
+			"field": "futMant_Report_km_ult_Serv_",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "futMant Report",
+					"field": "dominio"
+				}
+			],
+			"labels": {
+				"Spanish": "Dominio"
+			},
+			"field": "futMant_Report_dominio",
+			"allFieldsSearch": true
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "dashboard",
+			"type": "dashboard",
+			"layoutId": "leftbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"left": {
+					"modelId": "leftbar-dashboard",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": [
+								"logo1"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top-dashboard",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button",
+								"breadcrumb"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"list_options",
+								"username_button"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "dashboard-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "dashboard-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "cell_0_0",
+									"colspan": 1,
+									"rowspan": 1
+								},
+								{
+									"cell": "cell_0_1",
+									"colspan": 1,
+									"rowspan": 1
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_1_0",
+									"colspan": 1,
+									"rowspan": 1
+								},
+								{
+									"cell": "cell_1_1",
+									"colspan": 1,
+									"rowspan": 1
+								}
+							]
+						}
+					],
+					"cells": {
+						"cell_0_0": {
+							"model": "c1",
+							"items": [
+								"vehiculos_estado_chart"
+							]
+						},
+						"cell_0_1": {
+							"model": "c1",
+							"items": [
+								"vehiculos_chart_chart"
+							]
+						},
+						"cell_1_0": {
+							"model": "c1",
+							"items": [
+								"vehicxanio_chart"
+							]
+						},
+						"cell_1_1": {
+							"model": "c1",
+							"items": [
+								"futmant_report_report"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"breadcrumb": {
+					"type": "breadcrumb"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"simple_search": {
+					"type": "simple_search"
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"adminarea_link",
+						"changepassword_link"
+					]
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"adminarea_link": {
+					"type": "adminarea_link"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"list_options": {
+					"type": "list_options",
+					"items": [
+						"advsearch_link"
+					]
+				},
+				"advsearch_link": {
+					"type": "advsearch_link"
+				},
+				"logo1": {
+					"type": "logo"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"vehiculos_estado_chart": {
+					"type": "dashboard-item",
+					"table": 3271437106,
+					"dashType": 1,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": "",
+					"dashName": "vehiculos_estado_chart",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"fa": "heart"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true
+				},
+				"vehiculos_chart_chart": {
+					"type": "dashboard-item",
+					"table": 1213460646,
+					"dashType": 1,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": "",
+					"dashName": "vehiculos_chart_chart",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"fa": "flag"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true
+				},
+				"vehicxanio_chart": {
+					"type": "dashboard-item",
+					"table": 4230670315,
+					"dashType": 1,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": "",
+					"dashName": "vehicxanio_chart",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"glyph": "barcode"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true
+				},
+				"futmant_report_report": {
+					"type": "dashboard-item",
+					"table": 126737459,
+					"dashType": 2,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": "",
+					"dashName": "futmant_report_report",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"fa": "photo"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "search",
+			"type": "search",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"top": {
+					"modelId": "search-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_header"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"above-grid": {
+					"modelId": "search-above-grid",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "search-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_search",
+								"search_reset",
+								"search_back_list",
+								"search_cancel"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-search",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"search_header": {
+					"type": "search_header"
+				},
+				"search_reset": {
+					"type": "search_reset"
+				},
+				"search_back_list": {
+					"type": "search_back_list"
+				},
+				"search_search": {
+					"type": "search_search"
+				},
+				"search_cancel": {
+					"type": "search_cancel"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Spanish": "Dashboard"
+	}
+}

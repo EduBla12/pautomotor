@@ -1,0 +1,3255 @@
+{
+	"app": "PHPRunner",
+	"programVersion": 2,
+	"versionName": "11.1",
+	"build": 40608,
+	"appUser": "PHPRunner 10.9",
+	"name": "ParqueAutomotor",
+	"mainDiagram": {
+		"tables": [
+			{
+				"x": 30,
+				"y": 452,
+				"width": 164,
+				"height": 192,
+				"gid": 2174505078
+			},
+			{
+				"x": 224,
+				"y": 452,
+				"width": 140,
+				"height": 116,
+				"gid": 1554571514
+			},
+			{
+				"x": 9,
+				"y": 622,
+				"width": 140,
+				"height": 192,
+				"gid": 3030998547
+			},
+			{
+				"x": 10.375,
+				"y": 852,
+				"width": 165.625,
+				"height": 144,
+				"gid": 2678541014
+			},
+			{
+				"x": 206,
+				"y": 852,
+				"width": 178,
+				"height": 154,
+				"gid": 3414139462
+			},
+			{
+				"x": 1174,
+				"y": 622,
+				"width": 159,
+				"height": 200,
+				"gid": 418489474
+			},
+			{
+				"x": 20,
+				"y": 9,
+				"gid": 3871621562,
+				"width": 122.703125,
+				"height": 208
+			},
+			{
+				"x": 195,
+				"y": 10,
+				"gid": 267874310,
+				"width": 125.046875,
+				"height": 152
+			},
+			{
+				"x": 1018,
+				"y": 622,
+				"width": 126,
+				"height": 116,
+				"gid": 3731193179
+			},
+			{
+				"x": 513,
+				"y": 411,
+				"width": 146,
+				"height": 116,
+				"gid": 2388899209
+			},
+			{
+				"x": 179,
+				"y": 622,
+				"width": 120,
+				"height": 154,
+				"gid": 2932518439
+			},
+			{
+				"x": 329,
+				"y": 622,
+				"width": 150,
+				"height": 186,
+				"gid": 126737459
+			},
+			{
+				"x": 337,
+				"y": 9,
+				"gid": 2620176925,
+				"width": 241.796875,
+				"height": 96
+			},
+			{
+				"x": 602,
+				"y": 16,
+				"gid": 1993313945,
+				"width": 257.34375,
+				"height": 96
+			},
+			{
+				"x": 880,
+				"y": 10,
+				"gid": 617392261,
+				"width": 217.65625,
+				"height": 264
+			},
+			{
+				"x": 1055,
+				"y": 10,
+				"gid": 2253367537,
+				"width": 146.828125,
+				"height": 180
+			},
+			{
+				"x": 1230,
+				"y": 10,
+				"gid": 3958315128,
+				"width": 116.46875,
+				"height": 96
+			},
+			{
+				"x": 1405,
+				"y": 10,
+				"gid": 2235041957,
+				"width": 152.28125,
+				"height": 180
+			},
+			{
+				"x": 9,
+				"y": 235,
+				"width": 120,
+				"height": 200,
+				"gid": 3229515823
+			},
+			{
+				"x": 157,
+				"y": 360,
+				"width": 159,
+				"height": 154,
+				"gid": 2547224885
+			},
+			{
+				"gid": 2749073996,
+				"y": 10,
+				"x": 1595,
+				"width": 117,
+				"height": 40
+			},
+			{
+				"x": 175,
+				"y": 185,
+				"width": 120,
+				"height": 97,
+				"gid": 160440308
+			},
+			{
+				"x": 309,
+				"y": 235,
+				"width": 120,
+				"height": 78,
+				"gid": 3864408098
+			},
+			{
+				"x": 459,
+				"y": 235,
+				"width": 150,
+				"height": 91,
+				"gid": 525463327
+			},
+			{
+				"x": 639,
+				"y": 235,
+				"width": 142,
+				"height": 116,
+				"gid": 2149738524
+			},
+			{
+				"x": 901,
+				"y": 406,
+				"width": 120,
+				"height": 200,
+				"gid": 2194564263
+			},
+			{
+				"x": 509,
+				"y": 622,
+				"width": 156,
+				"height": 78,
+				"gid": 1213460646
+			},
+			{
+				"x": 845,
+				"y": 622,
+				"width": 167,
+				"height": 78,
+				"gid": 3271437106
+			},
+			{
+				"x": 695,
+				"y": 622,
+				"width": 126,
+				"height": 78,
+				"gid": 4230670315
+			},
+			{
+				"x": 855,
+				"y": 216,
+				"width": 120,
+				"height": 91,
+				"gid": 2958735656
+			},
+			{
+				"x": 1111,
+				"y": 235,
+				"width": 159,
+				"height": 135,
+				"gid": 4045591651
+			},
+			{
+				"x": 1300,
+				"y": 235,
+				"width": 120,
+				"height": 91,
+				"gid": 1017192216
+			},
+			{
+				"x": 1450,
+				"y": 235,
+				"width": 120,
+				"height": 91,
+				"gid": 1499303495
+			}
+		]
+	},
+	"securitySettings": {
+		"projectName": "ParqueAutomotorv108",
+		"loginDataSource": "parqueautomotor_users",
+		"loginForm": 0,
+		"dynamicPermissions": true,
+		"dpTablePrefix": "parqueautomotor_",
+		"dpTableConnId": "pAutomotor_at_localhost",
+		"providers": [
+			{
+				"type": "%db",
+				"activationField": "active",
+				"active": true,
+				"code": "00",
+				"codeField": "",
+				"emailField": "email",
+				"extUserIdField": "",
+				"fullnameField": "fullname",
+				"label": {
+					"text": "Database",
+					"type": 0
+				},
+				"name": "db",
+				"passwordField": "password",
+				"phoneField": "",
+				"resetDateField": "˂Create new˃",
+				"resetTokenField": "˂Create new˃",
+				"table": {
+					"connId": "pAutomotor_at_localhost",
+					"table": "parqueautomotor_users"
+				},
+				"twoFactorField": "",
+				"userGroupField": "groupid",
+				"usernameField": "username",
+				"userpicField": ""
+			},
+			{
+				"active": false,
+				"code": "01",
+				"label": {
+					"text": "Hardcoded",
+					"type": 0
+				},
+				"name": "hardcoded",
+				"password": "",
+				"type": "%hardcoded",
+				"username": ""
+			}
+		],
+		"sessionControl": {
+			"lifeTime": 15,
+			"sessionName": "Tv9RynFyeNB1sS5G2TRe",
+			"JWTSecret": "bVRZICSQq6h2N2W52NVB"
+		},
+		"registration": {
+			"remindMethod": 0,
+			"hashAlgorithm": 0,
+			"adminEmail": "",
+			"caseInsensitiveLogin": false,
+			"changePasswordPage": true,
+			"hashPassword": false,
+			"notifyAdmin": false,
+			"notifyUser": false,
+			"registerPage": false,
+			"remindPasswordPage": false,
+			"sendActivationLink": false,
+			"remindPage": false,
+			"changePwdPage": false,
+			"passwordValidation": {
+				"strong": false,
+				"minimumLength": 8,
+				"uniqueCharacters": 4,
+				"digitsAndSymbols": 2,
+				"upperAndLowerCase": false
+			}
+		},
+		"captchaSettings": {
+			"captchaType": 0,
+			"siteKey": "",
+			"secretKey": "",
+			"passesCount": 5
+		},
+		"emailSettings": {
+			"fromEmail": "erblanco12@gmail.com",
+			"usePHPDefinedSMTP": false,
+			"useBuiltInMailer": false,
+			"SMTPServer": "smtp.gmail.com",
+			"SMTPPort": 465,
+			"SMTPUser": "erblanco12@gmail.com",
+			"SMTPPassword": "made3851",
+			"securityProtocol": 1
+		},
+		"advancedSecurity": {
+			"allowGuestLogin": false
+		},
+		"auditAndLocking": {
+			"loggingMode": 0,
+			"loggingTable": {
+				"connId": "",
+				"table": "parqueautomotor_audit"
+			},
+			"loggingFile": "audit.log",
+			"logSecurityActions": false,
+			"lockAfterUnsuccessfulLogin": false,
+			"enableLocking": false,
+			"lockingTable": {
+				"connId": "",
+				"table": "parqueautomotor_locking"
+			},
+			"tables": {}
+		},
+		"twoFactorSettings": {
+			"available": false,
+			"required": false,
+			"enable": true,
+			"remember": true,
+			"types": {},
+			"twoFactorField": "",
+			"emailField": "",
+			"phoneField": "",
+			"codeField": "",
+			"projectName": ""
+		},
+		"staticPermissions": {
+			"groups": {}
+		}
+	},
+	"encryption": {
+		"connEncryptInfo": {
+			"pAutomotor_at_localhost": {
+				"encryptAlgorithm": 128,
+				"connId": "pAutomotor_at_localhost"
+			}
+		}
+	},
+	"ftpLocations": [
+		{
+			"id": "ftploc5",
+			"name": "Automotor Prod",
+			"ftp": {
+				"username": "admin_admin",
+				"password": "",
+				"host": "proyectosag.com.ar",
+				"port": 21,
+				"pathname": "/pautomotor",
+				"passive": true,
+				"secureType": 0,
+				"useCCC": false,
+				"pathFromRoot": false
+			},
+			"proxy": {
+				"username": "",
+				"password": "",
+				"host": "localhost",
+				"port": 3128,
+				"pathname": "",
+				"type": 0,
+				"enabled": false
+			},
+			"threads": 4,
+			"serverDbConnections": {
+				"conn": "Prod"
+			},
+			"url": "https://pa.desarrolloag.com.ar"
+		}
+	],
+	"lastFtpLocation": "ftploc5",
+	"visualStudioVersion": 10,
+	"lcid": 22538,
+	"defaultLanguage": "Spanish",
+	"languages": [
+		"Spanish"
+	],
+	"emailTemplates": {
+		"Spanish": {}
+	},
+	"dbConnections": [
+		{
+			"id": "pAutomotor_at_localhost",
+			"name": "pautomotor",
+			"customName": true,
+			"connString": "mysql;desarrolloag.com.ar;adminag;enterprise;;pautomotor;;1",
+			"buildParams": {
+				"customConnections": [
+					{
+						"name": "desarrolloag",
+						"code": "$host=\"localhost\";\n$user=\"adminag\";\n$pwd=\"enterprise\";\n$port=\"\";\n$sys_dbname=\"pautomotor\";"
+					},
+					{
+						"name": "prod",
+						"code": "$host = 'proyectosag.com.ar';\n$user = 'adminag';\n$pwd = 'enterprise';\n$port = 3306;\n$sys_dbname = 'pautomotor';"
+					},
+					{
+						"name": "prod",
+						"code": "$host = 'localhost';\n$user = 'adminag';\n$pwd = 'enterprise';\n$port = 3306;\n$sys_dbname = 'pautomotor';"
+					}
+				],
+				"selectedCustomConn": "prod"
+			}
+		},
+		{
+			"id": "conn",
+			"name": "buda",
+			"customName": true,
+			"connString": "mysql;desarrolloag.com.ar;adminag;enterprise;;buda;;1",
+			"buildParams": {
+				"customConnections": [
+					{
+						"name": "prod",
+						"code": "$host = 'proyectosag.com.ar';\n$user = 'adminag';\n$pwd = 'enterprise';\n$port = 3306;\n$sys_dbname = 'buda';"
+					}
+				],
+				"selectedCustomConn": "prod"
+			}
+		}
+	],
+	"defaultConnID": "pAutomotor_at_localhost",
+	"landingSettings": {
+		"table": "Dashboard",
+		"pageId": "dashboard",
+		"page": "dashboard",
+		"url": "dashboard_dashboard.php?page=dashboard"
+	},
+	"copyFieldSettings": {
+		"copyViewFormat": ""
+	},
+	"createAppSettings": {
+		"appVersion": "",
+		"appURL": ""
+	},
+	"menus": [
+		{
+			"id": "main",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "vehiculos",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-car",
+							"pageType": "list",
+							"table": 2194564263
+						}
+					},
+					{
+						"id": "2",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "apysempleados",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-users",
+							"pageType": "list",
+							"table": 418489474
+						}
+					},
+					{
+						"id": "3",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "choferes",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-user",
+							"pageType": "list",
+							"table": 3871621562
+						}
+					},
+					{
+						"id": "4",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "servicios",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-wrench",
+							"pageType": "list",
+							"table": 3229515823
+						}
+					},
+					{
+						"id": "5",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "proveedores",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-shopping-cart",
+							"pageType": "list",
+							"table": 2253367537
+						}
+					},
+					{
+						"id": "6",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "futMant Report",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "report",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-calendar",
+							"pageType": "report",
+							"table": 126737459
+						}
+					},
+					{
+						"id": "7",
+						"parent": "0",
+						"children": [
+							{
+								"id": "8",
+								"parent": "7",
+								"data": {
+									"name": {
+										"text": "Marcas",
+										"type": 0
+									},
+									"href": "mypage.htm",
+									"pageId": "list",
+									"itemType": 2,
+									"linkType": 0,
+									"showIconType": 2,
+									"pageType": "list",
+									"table": 1017192216
+								}
+							},
+							{
+								"id": "9",
+								"parent": "7",
+								"data": {
+									"name": {
+										"text": "Componentes",
+										"type": 0
+									},
+									"href": "mypage.htm",
+									"pageId": "list",
+									"itemType": 2,
+									"linkType": 0,
+									"showIconType": 2,
+									"pageType": "list",
+									"table": 525463327
+								}
+							},
+							{
+								"id": "10",
+								"parent": "7",
+								"data": {
+									"name": {
+										"table": "apysdependencias",
+										"type": 6
+									},
+									"href": "mypage.htm",
+									"pageId": "list",
+									"itemType": 2,
+									"linkType": 0,
+									"pageType": "list",
+									"table": 3414139462
+								}
+							},
+							{
+								"id": "11",
+								"parent": "7",
+								"data": {
+									"name": {
+										"text": "Estados de Vehículos",
+										"type": 0
+									},
+									"href": "mypage.htm",
+									"pageId": "list",
+									"itemType": 2,
+									"linkType": 0,
+									"showIconType": 2,
+									"pageType": "list",
+									"table": 2958735656
+								}
+							},
+							{
+								"id": "12",
+								"parent": "7",
+								"data": {
+									"name": {
+										"table": "vtipos",
+										"type": 6
+									},
+									"href": "mypage.htm",
+									"pageId": "list",
+									"itemType": 2,
+									"linkType": 0,
+									"showIconType": 2,
+									"pageType": "list",
+									"table": 1499303495
+								}
+							},
+							{
+								"id": "13",
+								"parent": "7",
+								"data": {
+									"name": {
+										"text": "Rubros de Proveedores",
+										"type": 0
+									},
+									"href": "mypage.htm",
+									"pageId": "list",
+									"itemType": 2,
+									"linkType": 0,
+									"pageType": "list",
+									"table": 3958315128
+								}
+							},
+							{
+								"id": "14",
+								"parent": "7",
+								"data": {
+									"name": {
+										"text": "Tipos de Servicios",
+										"type": 0
+									},
+									"href": "mypage.htm",
+									"pageId": "list",
+									"itemType": 2,
+									"linkType": 0,
+									"pageType": "list",
+									"table": 160440308
+								}
+							},
+							{
+								"id": "15",
+								"parent": "7",
+								"data": {
+									"name": {
+										"table": "apysciudades",
+										"type": 6
+									},
+									"href": "mypage.htm",
+									"pageId": "list",
+									"itemType": 2,
+									"linkType": 0,
+									"pageType": "list",
+									"table": 2678541014
+								}
+							}
+						],
+						"data": {
+							"name": {
+								"text": "Tablas Anexas",
+								"type": 0
+							},
+							"iconType": 3,
+							"iconName": "fa-list-alt",
+							"pageType": "",
+							"table": null
+						}
+					},
+					{
+						"id": "16",
+						"parent": "0",
+						"children": [
+							{
+								"id": "17",
+								"parent": "16",
+								"data": {
+									"name": {
+										"table": "vehiculos Estado",
+										"type": 6
+									},
+									"href": "mypage.htm",
+									"pageId": "chart",
+									"itemType": 2,
+									"linkType": 0,
+									"pageType": "chart",
+									"table": 3271437106
+								}
+							},
+							{
+								"id": "18",
+								"parent": "16",
+								"data": {
+									"name": {
+										"table": "vehicxanio",
+										"type": 6
+									},
+									"href": "mypage.htm",
+									"pageId": "chart",
+									"itemType": 2,
+									"linkType": 0,
+									"pageType": "chart",
+									"table": 4230670315
+								}
+							},
+							{
+								"id": "19",
+								"parent": "16",
+								"data": {
+									"name": {
+										"table": "vehiculos Chart",
+										"type": 6
+									},
+									"href": "mypage.htm",
+									"pageId": "chart",
+									"itemType": 2,
+									"linkType": 0,
+									"pageType": "chart",
+									"table": 1213460646
+								}
+							}
+						],
+						"data": {
+							"name": {
+								"text": "Gráficos",
+								"type": 0
+							},
+							"iconType": 3,
+							"iconName": "fa-bar-chart",
+							"pageType": "",
+							"table": null
+						}
+					},
+					{
+						"id": "20",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "Dashboard",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "dashboard",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-dashboard",
+							"pageType": "dashboard",
+							"table": 3731193179
+						}
+					},
+					{
+						"id": "21",
+						"data": {
+							"name": {
+								"table": "sqlView",
+								"type": 6
+							},
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"table": 2749073996,
+							"pageType": "list"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "secondary",
+			"id": "secondary"
+		}
+	],
+	"customTemplates": {
+		"headers.htm": "<!DOCTYPE html>\r\n<html lang=\"es\">\r\n<head>\r\n\t<title>{$pagetitle}</title>\r\n\t<base href=\"{$projectPath}\">\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>PODER JUDICIAL DE NEUQUÉN - Administración General</title>\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap\" rel=\"stylesheet\">\r\n    <link rel=\"stylesheet\" href=\"styles.css\"> </head>\r\n<body>\r\n\r\n    <header class=\"header-container\">\r\n        <div class=\"logo-and-title-container\">\r\n            <img src=\"https://info.proyectosag.com.ar/images/LogoPJN.png\" alt=\"Logo de la izquierda\" class=\"logo-left\">\r\n            <h2 class=\"header-title\">PODER JUDICIAL DE NEUQUÉN - Administración General</h2>\r\n        </div>\r\n        <div class=\"logo-right-container\">\r\n            <img src=\"https://fondos.proyectosag.com.ar/images/SAG_t.png\" alt=\"Logo de la derecha\" class=\"logo-right\">\r\n        </div>\r\n    </header>\r\n\r\n</body>\r\n</html>"
+	},
+	"globalPages": [
+		{
+			"id": "admin_members_list",
+			"type": "admin_members_list",
+			"layoutId": "topbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "admin-topbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"logo",
+								"menu"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"username_button"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "admin-header",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"above-grid": {
+					"modelId": "admin-members-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"members_save",
+								"members_reset"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"members_choose_columns",
+								"members_displaying_filter"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "admin-header",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "admin-members-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "hcell_username",
+									"colspan": 2
+								},
+								{
+									"cell": "hcell_displayname"
+								},
+								{
+									"cell": "hcell_email"
+								},
+								{
+									"cell": "hcell_groupname"
+								}
+							],
+							"section": "head"
+						},
+						{
+							"cells": [
+								{
+									"cell": "hcell_source"
+								},
+								{
+									"cell": "hcell_username1"
+								},
+								{
+									"cell": "hcell_displayname1"
+								},
+								{
+									"cell": "hcell_email1"
+								},
+								{
+									"cell": "hcell_groupname1"
+								}
+							],
+							"section": "head"
+						},
+						{
+							"cells": [
+								{
+									"cell": "hcell_search",
+									"colspan": 2
+								},
+								{
+									"cell": "hcell_dn"
+								},
+								{
+									"cell": "hcell_e"
+								},
+								{
+									"cell": "hcell_all_checkbox"
+								}
+							],
+							"section": "head"
+						},
+						{
+							"cells": [
+								{
+									"cell": "hcell_source1"
+								},
+								{
+									"cell": "hcell_search1",
+									"colspan": 3
+								},
+								{
+									"cell": "hcell_all_checkbox1"
+								}
+							],
+							"section": "head"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_u",
+									"colspan": 2
+								},
+								{
+									"cell": "cell_dn"
+								},
+								{
+									"cell": "cell_e"
+								},
+								{
+									"cell": "c_gn"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_source"
+								},
+								{
+									"cell": "cell_u1"
+								},
+								{
+									"cell": "cell_dn1"
+								},
+								{
+									"cell": "cell_e1"
+								},
+								{
+									"cell": "c_gn1"
+								}
+							],
+							"section": "body"
+						}
+					],
+					"cells": {
+						"hcell_username": {
+							"model": "hcell_username",
+							"items": [
+								"members_username_label"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"hcell_displayname": {
+							"model": "hcell_displayname",
+							"items": [
+								"members_displayname_label"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"hcell_email": {
+							"model": "hcell_email",
+							"items": [
+								"members_email_label"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"hcell_groupname": {
+							"model": "hcell_groupname",
+							"items": [
+								"members_groupname_label"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"hcell_search": {
+							"model": "hcell_search",
+							"items": [
+								"members_search"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"hcell_dn": {
+							"model": "hcell_dn",
+							"items": [],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"hcell_e": {
+							"model": "hcell_e",
+							"items": [],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"hcell_all_checkbox": {
+							"model": "hcell_all_checkbox",
+							"items": [
+								"members_all_users_checkbox"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_u": {
+							"model": "cell_u",
+							"items": [
+								"members_all_groups_checkbox",
+								"members_username"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_dn": {
+							"model": "cell_dn",
+							"items": [
+								"members_displayname"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_e": {
+							"model": "cell_e",
+							"items": [
+								"members_email"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c_gn": {
+							"model": "c_gn",
+							"items": [
+								"members_group_checkbox"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"hcell_source": {
+							"model": "hcell_source",
+							"items": [
+								"members_source_label"
+							]
+						},
+						"hcell_username1": {
+							"model": "hcell_username",
+							"items": []
+						},
+						"hcell_displayname1": {
+							"model": "hcell_displayname",
+							"items": []
+						},
+						"hcell_email1": {
+							"model": "hcell_email",
+							"items": []
+						},
+						"hcell_groupname1": {
+							"model": "hcell_groupname",
+							"items": []
+						},
+						"hcell_source1": {
+							"model": "hcell_source1",
+							"items": [
+								"members_source_filter"
+							]
+						},
+						"hcell_search1": {
+							"model": "hcell_search",
+							"items": []
+						},
+						"hcell_all_checkbox1": {
+							"model": "hcell_all_checkbox",
+							"items": []
+						},
+						"cell_source": {
+							"model": "cell_source",
+							"items": [
+								"members_source"
+							]
+						},
+						"cell_u1": {
+							"model": "cell_u",
+							"items": []
+						},
+						"cell_dn1": {
+							"model": "cell_dn",
+							"items": []
+						},
+						"cell_e1": {
+							"model": "cell_e",
+							"items": []
+						},
+						"c_gn1": {
+							"model": "c_gn",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"members_save": {
+					"type": "members_save"
+				},
+				"members_reset": {
+					"type": "members_reset"
+				},
+				"members_choose_columns": {
+					"type": "members_choose_columns"
+				},
+				"members_displaying_filter": {
+					"type": "members_displaying_filter"
+				},
+				"members_username_label": {
+					"type": "members_username_label"
+				},
+				"members_displayname_label": {
+					"type": "members_displayname_label"
+				},
+				"members_email_label": {
+					"type": "members_email_label"
+				},
+				"members_groupname_label": {
+					"type": "members_groupname_label"
+				},
+				"members_search": {
+					"type": "members_search"
+				},
+				"members_all_users_checkbox": {
+					"type": "members_all_users_checkbox"
+				},
+				"members_username": {
+					"type": "members_username"
+				},
+				"members_group_checkbox": {
+					"type": "members_group_checkbox"
+				},
+				"members_all_groups_checkbox": {
+					"type": "members_all_groups_checkbox"
+				},
+				"members_displayname": {
+					"type": "members_displayname"
+				},
+				"members_email": {
+					"type": "members_email"
+				},
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"exit_adminarea_link",
+						"changepassword_link"
+					]
+				},
+				"exit_adminarea_link": {
+					"type": "exit_adminarea_link"
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"members_source_label": {
+					"type": "members_source_label"
+				},
+				"members_source_filter": {
+					"type": "members_source_filter"
+				},
+				"members_source": {
+					"type": "members_source"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "admin_rights_list",
+			"type": "admin_rights_list",
+			"layoutId": "topbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "admin-topbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"logo",
+								"menu"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"username_button"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "admin-header",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"above-grid": {
+					"modelId": "admin-rights-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c4"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"rights_save",
+								"rights_reset"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"rights_displaying_tables",
+								"rights_ordering_tables"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c3": {
+							"model": "c3",
+							"items": [],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c4": {
+							"model": "c4",
+							"items": [
+								"rights_add_group",
+								"rights_del_group",
+								"rights_rename_group",
+								"rights_copy_permissions"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "admin-header",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "admin-rights-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "headcell_search"
+								},
+								{
+									"cell": "headcell_a"
+								},
+								{
+									"cell": "headcell_e"
+								},
+								{
+									"cell": "headcell_d"
+								},
+								{
+									"cell": "headcell_s"
+								},
+								{
+									"cell": "headcell_p"
+								},
+								{
+									"cell": "headcell_i"
+								},
+								{
+									"cell": "headcell_m"
+								}
+							],
+							"section": "head"
+						},
+						{
+							"cells": [
+								{
+									"cell": "headcell_expand"
+								},
+								{
+									"cell": "headcell_all_a"
+								},
+								{
+									"cell": "headcell_all_e"
+								},
+								{
+									"cell": "headcell_all_d"
+								},
+								{
+									"cell": "headcell_all_s"
+								},
+								{
+									"cell": "headcell_all_p"
+								},
+								{
+									"cell": "headcell_all_i"
+								},
+								{
+									"cell": "headcell_all_m"
+								}
+							],
+							"section": "head"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_table"
+								},
+								{
+									"cell": "cell_a"
+								},
+								{
+									"cell": "cell_e"
+								},
+								{
+									"cell": "cell_d"
+								},
+								{
+									"cell": "cell_s"
+								},
+								{
+									"cell": "cell_p"
+								},
+								{
+									"cell": "cell_i"
+								},
+								{
+									"cell": "cell_m"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_page"
+								},
+								{
+									"cell": "cell_page_a"
+								},
+								{
+									"cell": "cell_page_e"
+								},
+								{
+									"cell": "cell_page_d"
+								},
+								{
+									"cell": "cell_page_s"
+								},
+								{
+									"cell": "cell_page_p"
+								},
+								{
+									"cell": "cell_page_i"
+								},
+								{
+									"cell": "cell_page_m"
+								}
+							],
+							"section": "page"
+						}
+					],
+					"cells": {
+						"headcell_search": {
+							"model": "headcell_search",
+							"items": [
+								"rights_search"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_a": {
+							"model": "headcell_a",
+							"items": [
+								"rights_name_a"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_e": {
+							"model": "headcell_e",
+							"items": [
+								"rights_name_e"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_d": {
+							"model": "headcell_d",
+							"items": [
+								"rights_name_d"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_s": {
+							"model": "headcell_s",
+							"items": [
+								"rights_name_s"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_p": {
+							"model": "headcell_p",
+							"items": [
+								"rights_name_p"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_i": {
+							"model": "headcell_i",
+							"items": [
+								"rights_name_i"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_m": {
+							"model": "headcell_m",
+							"items": [
+								"rights_name_m"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_page": {
+							"model": "cell_page",
+							"items": [
+								"rights_checkbox_page",
+								"rights_page"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_page_a": {
+							"model": "cell_page_a",
+							"items": [
+								"rights_checkbox_page_a"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_page_e": {
+							"model": "cell_page_e",
+							"items": [
+								"rights_checkbox_page_e"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_page_d": {
+							"model": "cell_page_d",
+							"items": [
+								"rights_checkbox_page_d"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_page_s": {
+							"model": "cell_page_s",
+							"items": [
+								"rights_checkbox_page_s"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_page_p": {
+							"model": "cell_page_p",
+							"items": [
+								"rights_checkbox_page_p"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_page_i": {
+							"model": "cell_page_i",
+							"items": [
+								"rights_checkbox_page_i"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_page_m": {
+							"model": "cell_page_m",
+							"items": [],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_expand": {
+							"model": "headcell_expand",
+							"items": [
+								"rights_expand_all"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_all_a": {
+							"model": "headcell_all_a",
+							"items": [
+								"rights_checkbox_all_a"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_all_e": {
+							"model": "headcell_all_e",
+							"items": [
+								"rights_checkbox_all_e"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_all_d": {
+							"model": "headcell_all_d",
+							"items": [
+								"rights_checkbox_all_d"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_all_s": {
+							"model": "headcell_all_s",
+							"items": [
+								"rights_checkbox_all_s"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_all_p": {
+							"model": "headcell_all_p",
+							"items": [
+								"rights_checkbox_all_p"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_all_i": {
+							"model": "headcell_all_i",
+							"items": [
+								"rights_checkbox_all_i"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"headcell_all_m": {
+							"model": "headcell_all_m",
+							"items": [
+								"rights_checkbox_all_m"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_table": {
+							"model": "cell_table",
+							"items": [
+								"rights_checkbox_table",
+								"rights_table",
+								"rights_show_pages",
+								"rights_hide_pages",
+								"rights_group_expander"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_a": {
+							"model": "cell_a",
+							"items": [
+								"rights_checkbox_a"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_e": {
+							"model": "cell_e",
+							"items": [
+								"rights_checkbox_e"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_d": {
+							"model": "cell_d",
+							"items": [
+								"rights_checkbox_d"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_s": {
+							"model": "cell_s",
+							"items": [
+								"rights_checkbox_s"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_p": {
+							"model": "cell_p",
+							"items": [
+								"rights_checkbox_p"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_i": {
+							"model": "cell_i",
+							"items": [
+								"rights_checkbox_i"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"cell_m": {
+							"model": "cell_m",
+							"items": [
+								"rights_checkbox_m"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"rights_save": {
+					"type": "rights_save"
+				},
+				"rights_reset": {
+					"type": "rights_reset"
+				},
+				"rights_add_group": {
+					"type": "rights_add_group"
+				},
+				"rights_del_group": {
+					"type": "rights_del_group"
+				},
+				"rights_rename_group": {
+					"type": "rights_rename_group"
+				},
+				"rights_copy_permissions": {
+					"type": "rights_copy_permissions"
+				},
+				"rights_displaying_tables": {
+					"type": "rights_displaying_tables"
+				},
+				"rights_ordering_tables": {
+					"type": "rights_ordering_tables"
+				},
+				"rights_search": {
+					"type": "rights_search"
+				},
+				"rights_name_a": {
+					"type": "rights_name_a"
+				},
+				"rights_name_e": {
+					"type": "rights_name_e"
+				},
+				"rights_name_d": {
+					"type": "rights_name_d"
+				},
+				"rights_name_s": {
+					"type": "rights_name_s"
+				},
+				"rights_name_p": {
+					"type": "rights_name_p"
+				},
+				"rights_name_i": {
+					"type": "rights_name_i"
+				},
+				"rights_name_m": {
+					"type": "rights_name_m"
+				},
+				"rights_checkbox_all_a": {
+					"type": "rights_checkbox_all_a"
+				},
+				"rights_checkbox_all_e": {
+					"type": "rights_checkbox_all_e"
+				},
+				"rights_checkbox_all_d": {
+					"type": "rights_checkbox_all_d"
+				},
+				"rights_checkbox_all_s": {
+					"type": "rights_checkbox_all_s"
+				},
+				"rights_checkbox_all_p": {
+					"type": "rights_checkbox_all_p"
+				},
+				"rights_checkbox_all_i": {
+					"type": "rights_checkbox_all_i"
+				},
+				"rights_checkbox_all_m": {
+					"type": "rights_checkbox_all_m"
+				},
+				"rights_checkbox_table": {
+					"type": "rights_checkbox_table"
+				},
+				"rights_table": {
+					"type": "rights_table"
+				},
+				"rights_checkbox_a": {
+					"type": "rights_checkbox_a"
+				},
+				"rights_checkbox_e": {
+					"type": "rights_checkbox_e"
+				},
+				"rights_checkbox_d": {
+					"type": "rights_checkbox_d"
+				},
+				"rights_checkbox_s": {
+					"type": "rights_checkbox_s"
+				},
+				"rights_checkbox_p": {
+					"type": "rights_checkbox_p"
+				},
+				"rights_checkbox_i": {
+					"type": "rights_checkbox_i"
+				},
+				"rights_checkbox_m": {
+					"type": "rights_checkbox_m"
+				},
+				"rights_page": {
+					"type": "rights_page"
+				},
+				"rights_checkbox_page_a": {
+					"type": "rights_checkbox_page_a"
+				},
+				"rights_checkbox_page_e": {
+					"type": "rights_checkbox_page_e"
+				},
+				"rights_checkbox_page_d": {
+					"type": "rights_checkbox_page_d"
+				},
+				"rights_checkbox_page_s": {
+					"type": "rights_checkbox_page_s"
+				},
+				"rights_checkbox_page_p": {
+					"type": "rights_checkbox_page_p"
+				},
+				"rights_checkbox_page_i": {
+					"type": "rights_checkbox_page_i"
+				},
+				"rights_show_pages": {
+					"type": "rights_show_pages"
+				},
+				"rights_hide_pages": {
+					"type": "rights_hide_pages"
+				},
+				"rights_checkbox_page": {
+					"type": "rights_checkbox_page"
+				},
+				"rights_group_expander": {
+					"type": "rights_group_expander"
+				},
+				"rights_expand_all": {
+					"type": "rights_expand_all"
+				},
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"exit_adminarea_link",
+						"changepassword_link"
+					]
+				},
+				"exit_adminarea_link": {
+					"type": "exit_adminarea_link"
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "login",
+			"type": "login",
+			"layoutId": "pretty1",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "login-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"login_message"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "plogin-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c3",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"login-logo"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": []
+						},
+						"c3": {
+							"model": "c3",
+							"items": [
+								"login_welcome"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "plogin-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c2",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c4"
+								},
+								{
+									"cell": "c6"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"username_label",
+								"username"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"password_label",
+								"password"
+							]
+						},
+						"c4": {
+							"model": "c4",
+							"items": [
+								"remember_password"
+							]
+						},
+						"c6": {
+							"model": "c6",
+							"items": [
+								"guest_login"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "plogin-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"login_button",
+								"continue_login_button"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"superbottom": {
+					"modelId": "plogin-superbottom",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"login_message": {
+					"type": "login_message"
+				},
+				"username_label": {
+					"type": "username_label"
+				},
+				"username": {
+					"type": "username"
+				},
+				"password_label": {
+					"type": "password_label"
+				},
+				"password": {
+					"type": "password"
+				},
+				"login_button": {
+					"type": "login_button"
+				},
+				"guest_login": {
+					"type": "guest_login"
+				},
+				"remember_password": {
+					"type": "remember_password"
+				},
+				"continue_login_button": {
+					"type": "continue_login_button"
+				},
+				"login-logo": {
+					"type": "login-logo",
+					"font-size": "24px"
+				},
+				"login_welcome": {
+					"type": "login_welcome"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image",
+				"shadow": false,
+				"fullSize": true,
+				"image": {
+					"source": 1,
+					"image": "pexels-george-sultan-1409968.jpg"
+				}
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "menu",
+			"type": "menu",
+			"layoutId": "topbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "menu-topbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"logo",
+								"menu"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"loginform_login",
+								"username_button"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"above-grid": {
+					"modelId": "empty-above-grid",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "welcome",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c"
+								}
+							]
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"welcome_item",
+								"welcome_item1"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c": {
+							"model": "c1",
+							"items": [
+								"welcome_item8",
+								"welcome_item11",
+								"welcome_item2",
+								"welcome_item10",
+								"welcome_item3",
+								"welcome_item4",
+								"welcome_item5",
+								"welcome_item6",
+								"welcome_item7",
+								"welcome_item9",
+								"welcome_item12"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"welcome_item": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "vehiculos",
+					"linkPage": "list",
+					"linkText": {
+						"table": "vehiculos",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "plane"
+					},
+					"linkComments": {
+						"text": "Vehículos del Parque Automotor",
+						"type": 0
+					},
+					"background": "#778899",
+					"linkType": 0
+				},
+				"welcome_item8": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "servicios",
+					"linkPage": "list",
+					"linkText": {
+						"table": "servicios",
+						"type": 6
+					},
+					"background": "#78bde0",
+					"linkType": 0
+				},
+				"welcome_item10": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "proveedores",
+					"linkPage": "list",
+					"linkText": {
+						"table": "proveedores",
+						"type": 6
+					},
+					"background": "#78bde0",
+					"linkType": 0
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"adminarea_link",
+						"changepassword_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"adminarea_link": {
+					"type": "adminarea_link"
+				},
+				"welcome_item1": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "futMant Report",
+					"linkPage": "report",
+					"linkText": {
+						"table": "futMant Report",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "calendar"
+					},
+					"background": "#083086",
+					"linkComments": {
+						"type": 0,
+						"text": "Informe de los próximos Mantenimientos"
+					},
+					"linkType": 0
+				},
+				"welcome_item2": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "choferes",
+					"linkPage": "list",
+					"linkText": {
+						"table": "choferes",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": ""
+					},
+					"background": "#78bde0",
+					"linkType": 0
+				},
+				"welcome_item3": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "vehiculos Chart",
+					"linkPage": "chart",
+					"linkText": {
+						"type": 0,
+						"text": "Vehículos x Ciudad"
+					},
+					"linkIcon": {
+						"glyph": "signal"
+					},
+					"background": "#6493ea",
+					"linkType": 0
+				},
+				"welcome_item4": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "vehicxanio",
+					"linkPage": "chart",
+					"linkText": {
+						"type": 0,
+						"text": "Vehículos x Ciudad"
+					},
+					"linkIcon": {
+						"glyph": "signal"
+					},
+					"background": "#6493ea",
+					"linkType": 0
+				},
+				"welcome_item5": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "vehiculos Estado",
+					"linkPage": "chart",
+					"linkText": {
+						"table": "vehiculos Estado",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "signal"
+					},
+					"background": "#6493EA",
+					"linkType": 0
+				},
+				"welcome_item6": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "Dashboard",
+					"linkPage": "dashboard",
+					"linkText": {
+						"table": "Dashboard",
+						"type": 6
+					},
+					"background": "#008B8B",
+					"linkType": 0
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"welcome_item11": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "apysempleados",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "Agentes"
+					},
+					"background": "#B22222",
+					"linkType": 0
+				},
+				"welcome_item7": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "apysciudades",
+					"linkPage": "list",
+					"linkText": {
+						"table": "apysciudades",
+						"type": 6
+					},
+					"background": "#CD853F",
+					"linkType": 0
+				},
+				"welcome_item9": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "apysdependencias",
+					"linkPage": "list",
+					"linkText": {
+						"table": "apysdependencias",
+						"type": 6
+					},
+					"background": "#EDCA00",
+					"linkType": 0
+				},
+				"welcome_item12": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "sqlView",
+					"linkPage": "list",
+					"linkText": {
+						"table": "sqlView",
+						"type": 6
+					},
+					"background": "#bc8f8f",
+					"linkType": 0
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "userinfo",
+			"type": "userinfo",
+			"layoutId": "leftbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "empty-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "empty-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button",
+								"breadcrumb"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": [
+								"logo"
+							]
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "empty-above-grid",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "userinfo-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "fields_message"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "fields"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "buttons"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"fields_message": {
+							"model": "fields_message",
+							"items": [
+								"user_fields_title",
+								"fields_message"
+							]
+						},
+						"buttons": {
+							"model": "buttons",
+							"items": [
+								"user_fields_reset",
+								"user_fields_save"
+							]
+						},
+						"fields": {
+							"model": "fields",
+							"items": [
+								"changepassword_link",
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"fields_message": {
+					"type": "fields_message"
+				},
+				"user_fields_reset": {
+					"type": "user_fields_reset"
+				},
+				"user_fields_save": {
+					"type": "user_fields_save"
+				},
+				"user_fields_title": {
+					"type": "user_fields_title",
+					"font-size": "24px"
+				},
+				"breadcrumb": {
+					"type": "breadcrumb"
+				},
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"integrated_edit_field": {
+					"field": "username",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "fullname",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "email",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "changepwd",
+			"type": "changepwd",
+			"layoutId": "first",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "changepwd-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"changepwd_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "changepwd-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"changepwd_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "changepwd-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c4"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c5"
+								},
+								{
+									"cell": "c6"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"oldpass_label"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"oldpass"
+							]
+						},
+						"c3": {
+							"model": "c3",
+							"items": [
+								"newpass_label"
+							]
+						},
+						"c4": {
+							"model": "c4",
+							"items": [
+								"newpass"
+							]
+						},
+						"c5": {
+							"model": "c5",
+							"items": [
+								"confirm_label"
+							]
+						},
+						"c6": {
+							"model": "c6",
+							"items": [
+								"confirm"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "changepwd-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"changepwd_button",
+								"changepwd_back"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"oldpass_label": {
+					"type": "oldpass_label"
+				},
+				"newpass_label": {
+					"type": "newpass_label"
+				},
+				"confirm_label": {
+					"type": "confirm_label"
+				},
+				"oldpass": {
+					"type": "oldpass"
+				},
+				"newpass": {
+					"type": "newpass"
+				},
+				"confirm": {
+					"type": "confirm"
+				},
+				"changepwd_message": {
+					"type": "changepwd_message"
+				},
+				"changepwd_button": {
+					"type": "changepwd_button"
+				},
+				"changepwd_back": {
+					"type": "changepwd_back"
+				},
+				"changepwd_header": {
+					"type": "changepwd_header"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "changepwd_success",
+			"type": "changepwd_success",
+			"layoutId": "first",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "changepwd-success-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"changepwd_success_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "changepwd-success-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"changepwd_success_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "changepwd-success-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"changepwd_success_back"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"changepwd_success_message": {
+					"type": "changepwd_success_message"
+				},
+				"changepwd_success_back": {
+					"type": "changepwd_success_back"
+				},
+				"changepwd_success_header": {
+					"type": "changepwd_success_header"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		}
+	],
+	"eventHandlers": [
+		{
+			"eventId": "EVENT_INIT_APP",
+			"code": "//$dDebug = true;\n\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		}
+	],
+	"projectStyle": {
+		"theme": "pjn25",
+		"sidebarWidth": "250px",
+		"sidebarTheme": "custom",
+		"menuStyle": "flat",
+		"topbarTheme": "custom",
+		"logoTheme": "white",
+		"topbarGradient": true,
+		"sidebarCustomThemeColor": "#7db5e9",
+		"topbarCustomThemeColor": "#c2e4eb",
+		"logoCustomThemeColor": "legacy",
+		"customCss": "/* General body and font styles */\r\nbody {\r\n    font-family: 'Source Sans Pro', sans-serif;\r\n    background-color: #f0f0f0;\r\n    margin: 0;\r\n    padding: 0;\r\n    min-height: 100vh;\r\n}\r\n\r\n/* Header container styles */\r\n.header-container {\r\n    background: linear-gradient(to right, #071457, #cdced1);\r\n    padding: 1rem;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n/* Left side: logo and title container */\r\n.logo-and-title-container {\r\n    display: flex;\r\n    align-items: center;\r\n    gap: 1rem; /* Replaces Tailwind's space-x-4 */\r\n}\r\n\r\n/* Styles for the left logo */\r\n.logo-left {\r\n    width: 6rem; /* Replaces Tailwind's w-24 */\r\n    height: 6rem; /* Replaces Tailwind's h-24 */\r\n    object-fit: contain;\r\n}\r\n\r\n/* Header title styles */\r\n.header-title {\r\n    font-size: 1.5rem; /* Replaces Tailwind's text-2xl */\r\n    font-weight: bold;\r\n    color: #ffffff; /* Replaces Tailwind's text-white */\r\n}\r\n\r\n/* Media query for larger screens (e.g., desktops) */\r\n@media (min-width: 768px) {\r\n    .header-title {\r\n        font-size: 1.875rem; /* Replaces Tailwind's md:text-3xl */\r\n    }\r\n}\r\n\r\n/* Right logo container styles */\r\n.logo-right-container {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n/* Styles for the right logo */\r\n.logo-right {\r\n    width: 3rem; /* Replaces Tailwind's w-12 */\r\n    height: 3rem; /* Replaces Tailwind's h-12 */\r\n    object-fit: contain;\r\n}",
+		"verticalBorders": false,
+		"rolloverHighlight": true,
+		"gpHeaderBg": "#efc5c5",
+		"gpHeaderColor": "legacy",
+		"gpFooterBg": "#4d3838",
+		"gpPanelBorder": "legacy",
+		"gpBorderColor": "legacy",
+		"gpInnerBorder": "legacy",
+		"gpInnerBorderColor": "legacy",
+		"gcOddBg": "legacy",
+		"gcOddColor": "legacy",
+		"gcEvenBg": "legacy",
+		"gcEvenColor": "legacy",
+		"gcRolloverHighlightBg": "legacy",
+		"gcRolloverHighlightColor": "legacy"
+	},
+	"version": "",
+	"settingsTable": {
+		"connId": "pAutomotor_at_localhost",
+		"table": "parqueautomotor_settings"
+	},
+	"messages": {},
+	"projectLogo": {
+		"Spanish": "Parque Automotor"
+	},
+	"cookieBannerText": {
+		"Spanish": ""
+	}
+}

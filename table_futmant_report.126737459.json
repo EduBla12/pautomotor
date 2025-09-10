@@ -1,0 +1,1439 @@
+{
+	"type": 8,
+	"connId": "pAutomotor_at_localhost",
+	"originalTable": "futMant",
+	"name": "futMant Report",
+	"shortTableName": "futmant_report",
+	"caseSensitiveSearch": "",
+	"pageSizeSelectorRecords": [
+		"10",
+		"20",
+		"30",
+		"50",
+		"100",
+		"500",
+		"-1"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"detailsBadgeColor": "8FBC8B",
+	"fields": [
+		{
+			"name": "idVehiculo",
+			"strField": "idVehiculo",
+			"type": 3,
+			"viewFormats": [
+				{
+					"pageType": "report",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"pageType": "search",
+					"required": true,
+					"validateAs": "Number",
+					"textHTML5Input": "0",
+					"lookupType": 2,
+					"lookupTable": "vehiculos",
+					"lookupTableConnection": "pAutomotor_at_localhost",
+					"lookupLinkField": "idVehiculo",
+					"lookupDisplayField": "Modelo",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"label": {
+				"Spanish": "Vehículo"
+			},
+			"tooltip": {
+				"Spanish": ""
+			},
+			"placeholder": {
+				"Spanish": ""
+			},
+			"tableName": ""
+		},
+		{
+			"name": "km",
+			"strField": "km",
+			"type": 5,
+			"viewFormats": [
+				{
+					"format": "Number",
+					"pageType": "report",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"pageType": "search",
+					"required": true,
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Spanish": "Km"
+			},
+			"tooltip": {
+				"Spanish": ""
+			},
+			"placeholder": {
+				"Spanish": ""
+			},
+			"tableName": ""
+		},
+		{
+			"name": "idComponente",
+			"strField": "idComponente",
+			"type": 3,
+			"viewFormats": [
+				{
+					"pageType": "report",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"pageType": "search",
+					"required": true,
+					"validateAs": "Number",
+					"textHTML5Input": "0",
+					"lookupType": 2,
+					"lookupTable": "vcomponentes",
+					"lookupTableConnection": "pAutomotor_at_localhost",
+					"lookupLinkField": "idComponente",
+					"lookupDisplayField": "Componente",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"label": {
+				"Spanish": "Id Componente"
+			},
+			"tooltip": {
+				"Spanish": ""
+			},
+			"placeholder": {
+				"Spanish": ""
+			},
+			"tableName": ""
+		},
+		{
+			"name": "km_p",
+			"strField": "km_p",
+			"type": 3,
+			"viewFormats": [
+				{
+					"pageType": "report",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"pageType": "search",
+					"required": true,
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Spanish": "Km Frec."
+			},
+			"tooltip": {
+				"Spanish": ""
+			},
+			"placeholder": {
+				"Spanish": ""
+			},
+			"tableName": ""
+		},
+		{
+			"name": "km_s",
+			"strField": "km_s",
+			"type": 3,
+			"viewFormats": [
+				{
+					"pageType": "report",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"pageType": "search",
+					"required": true,
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Spanish": "Km p/Serv."
+			},
+			"tooltip": {
+				"Spanish": ""
+			},
+			"placeholder": {
+				"Spanish": ""
+			},
+			"tableName": ""
+		},
+		{
+			"name": "km ult.Serv.",
+			"strField": "km_u",
+			"type": 3,
+			"viewFormats": [
+				{
+					"pageType": "report",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"pageType": "search",
+					"required": true,
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Spanish": "Km Ult.Serv."
+			},
+			"tooltip": {
+				"Spanish": ""
+			},
+			"placeholder": {
+				"Spanish": ""
+			},
+			"tableName": ""
+		},
+		{
+			"name": "dominio",
+			"strField": "dominio",
+			"type": 200,
+			"viewFormats": [
+				{
+					"pageType": "report",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"pageType": "search",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Spanish": "Dominio"
+			},
+			"tooltip": {
+				"Spanish": ""
+			},
+			"placeholder": {
+				"Spanish": ""
+			},
+			"tableName": ""
+		}
+	],
+	"dataSourceOperations": [
+		{
+			"sql": "INSERT INTO `Futuros_Mantenimientos` (\n\n)\nVALUES\n(\n\n)",
+			"enabled": false,
+			"subtype": "sql",
+			"method": "",
+			"request": "",
+			"type": "insert",
+			"payloadFormat": 4,
+			"rawPayload": "",
+			"payloadString": "",
+			"skipFilter": "",
+			"skipOrder": "",
+			"payload": []
+		},
+		{
+			"sql": "SELECT v.idVehiculo,v.dominio,v.km, vm.idComponente, vm.km as km_p, s.km as km_u,vm.km-abs(v.km-ifnull(s.km,0)) as km_s\nFROM vehiculos v\ninner join vmantenimiento vm on v.idVehiculo=vm.idVehiculo\nleft join servicios s on s.idComponente=vm.idcomponente and s.idVehiculo=v.idVehiculo\norder by km_s",
+			"enabled": true,
+			"subtype": "sql",
+			"method": "",
+			"request": "",
+			"type": "selectList",
+			"payloadFormat": 4,
+			"rawPayload": "",
+			"payloadString": "",
+			"skipFilter": "",
+			"skipOrder": "",
+			"payload": []
+		},
+		{
+			"sql": "update vehiculos set km=",
+			"enabled": false,
+			"subtype": "code",
+			"method": "",
+			"request": "",
+			"type": "update",
+			"payloadFormat": 4,
+			"rawPayload": "",
+			"payloadString": "",
+			"skipFilter": "",
+			"skipOrder": "",
+			"payload": []
+		}
+	],
+	"warnLeavingEdit": true,
+	"afterEditAction": 0,
+	"afterEditDetails": 7,
+	"afterAddDetail": 7,
+	"eventHandlers": [
+		{
+			"eventId": "EVENT_CODE_LIST",
+			"code": "$sql = \"SELECT v.idVehiculo,v.dominio,v.km, vm.idComponente, vm.km as km_p, s.km as km_u,vm.km-abs(v.km-ifnull(s.km,0)) as km_s\nFROM vehiculos v\ninner join vmantenimiento vm on v.idVehiculo=vm.idVehiculo\nleft join servicios s on s.idComponente=vm.idcomponente\norder by km_s \";\n$preparedSQL = DB::PrepareSQL( $sql );\n$result = DB::Query( $preparedSQL );\nif( !$result ) {\n\t$dataSource->setError( DB::LastError() );\n\treturn false;\n}\n\t// filter results, apply search, security & other filters\n$result = $dataSource->filterResult( $result, $command->filter );\n//\treorder results as requested\n$dataSource->reorderResult( $command, $result );\nreturn $result;"
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "report",
+			"type": "report",
+			"layoutId": "leftbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": [
+								"logo1"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu",
+								"search_panel"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top-chart",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button",
+								"breadcrumb"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"list_options",
+								"loginform_login",
+								"username_button"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "report-plain",
+					"grid": [
+						{
+							"section": "head",
+							"cells": [
+								{
+									"cell": "headcell_field"
+								},
+								{
+									"cell": "headcell_field1"
+								},
+								{
+									"cell": "headcell_field2"
+								},
+								{
+									"cell": "headcell_field3"
+								},
+								{
+									"cell": "headcell_field4"
+								},
+								{
+									"cell": "headcell_field5"
+								},
+								{
+									"cell": "headcell_field6"
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_field"
+								},
+								{
+									"cell": "cell_field1"
+								},
+								{
+									"cell": "cell_field2"
+								},
+								{
+									"cell": "cell_field3"
+								},
+								{
+									"cell": "cell_field4"
+								},
+								{
+									"cell": "cell_field5"
+								},
+								{
+									"cell": "cell_field6"
+								}
+							],
+							"section": "body"
+						}
+					],
+					"cells": {
+						"headcell_field": {
+							"model": "headcell_field",
+							"items": [
+								"report_advanced_field_label"
+							],
+							"field": "idVehiculo"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"report_advanced_field"
+							],
+							"field": "idVehiculo"
+						},
+						"headcell_field1": {
+							"model": "headcell_field",
+							"items": [
+								"report_advanced_field_label1"
+							],
+							"field": "dominio"
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"report_advanced_field1"
+							],
+							"field": "dominio"
+						},
+						"headcell_field2": {
+							"model": "headcell_field",
+							"items": [
+								"report_advanced_field_label2"
+							],
+							"field": "km"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"report_advanced_field2"
+							],
+							"field": "km"
+						},
+						"headcell_field3": {
+							"model": "headcell_field",
+							"items": [
+								"report_advanced_field_label3"
+							],
+							"field": "idComponente"
+						},
+						"cell_field3": {
+							"model": "cell_field",
+							"items": [
+								"report_advanced_field3"
+							],
+							"field": "idComponente"
+						},
+						"headcell_field4": {
+							"model": "headcell_field",
+							"items": [
+								"report_advanced_field_label4"
+							],
+							"field": "km_p"
+						},
+						"cell_field4": {
+							"model": "cell_field",
+							"items": [
+								"report_advanced_field4"
+							],
+							"field": "km_p"
+						},
+						"headcell_field5": {
+							"model": "headcell_field",
+							"items": [
+								"report_advanced_field_label5"
+							],
+							"field": "km ult.Serv."
+						},
+						"cell_field5": {
+							"model": "cell_field",
+							"items": [
+								"report_advanced_field5"
+							],
+							"field": "km ult.Serv."
+						},
+						"headcell_field6": {
+							"model": "headcell_field",
+							"items": [
+								"report_advanced_field_label6"
+							],
+							"field": "km_s"
+						},
+						"cell_field6": {
+							"model": "cell_field",
+							"items": [
+								"report_advanced_field6"
+							],
+							"field": "km_s"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1,
+					"groupColors": {}
+				},
+				"top": {
+					"modelId": "list-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"above-grid": {
+					"modelId": "report-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size",
+								"print_panel"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "report-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"breadcrumb": {
+					"type": "breadcrumb"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"simple_search": {
+					"type": "simple_search"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"list_options": {
+					"type": "list_options",
+					"items": [
+						"advsearch_link",
+						"show_search_panel",
+						"hide_search_panel",
+						"-1",
+						"export_report_excel",
+						"export_report_word",
+						"export_report_pdf"
+					]
+				},
+				"export_report_excel": {
+					"type": "export_report_excel"
+				},
+				"export_report_word": {
+					"type": "export_report_word"
+				},
+				"search_panel": {
+					"type": "search_panel",
+					"items": [
+						"search_panel_field",
+						"search_panel_field6",
+						"search_panel_field5",
+						"search_panel_field4",
+						"search_panel_field3",
+						"search_panel_field2",
+						"search_panel_field1"
+					]
+				},
+				"show_search_panel": {
+					"type": "show_search_panel"
+				},
+				"-": {
+					"type": "-"
+				},
+				"hide_search_panel": {
+					"type": "hide_search_panel"
+				},
+				"search_panel_field": {
+					"field": "idComponente",
+					"type": "search_panel_field",
+					"required": false,
+					"alwaysOnPanel": false
+				},
+				"search_panel_field1": {
+					"field": "idVehiculo",
+					"type": "search_panel_field",
+					"required": false,
+					"alwaysOnPanel": false
+				},
+				"search_panel_field2": {
+					"field": "km",
+					"type": "search_panel_field",
+					"required": false
+				},
+				"search_panel_field3": {
+					"field": "km ult.Serv.",
+					"type": "search_panel_field",
+					"required": false
+				},
+				"search_panel_field4": {
+					"field": "km_p",
+					"type": "search_panel_field",
+					"required": false
+				},
+				"search_panel_field5": {
+					"field": "km_s",
+					"type": "search_panel_field",
+					"required": false,
+					"alwaysOnPanel": false
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"adminarea_link",
+						"changepassword_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"adminarea_link": {
+					"type": "adminarea_link"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"print_panel": {
+					"type": "print_panel",
+					"items": [
+						"print_scope",
+						"print_records",
+						"print_button"
+					]
+				},
+				"print_scope": {
+					"type": "print_scope"
+				},
+				"print_button": {
+					"type": "print_button"
+				},
+				"print_records": {
+					"type": "print_records"
+				},
+				"advsearch_link": {
+					"type": "advsearch_link"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"export_report_pdf": {
+					"type": "export_report_pdf",
+					"targetPages": [],
+					"splitModes": [],
+					"scopes": []
+				},
+				"logo1": {
+					"type": "logo"
+				},
+				"search_panel_field6": {
+					"field": "dominio",
+					"type": "search_panel_field",
+					"required": false
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"report_advanced_field": {
+					"field": "idVehiculo",
+					"type": "report_advanced_field"
+				},
+				"report_advanced_field_label": {
+					"type": "report_advanced_field_label",
+					"field": "idVehiculo"
+				},
+				"report_advanced_field1": {
+					"field": "dominio",
+					"type": "report_advanced_field"
+				},
+				"report_advanced_field_label1": {
+					"type": "report_advanced_field_label",
+					"field": "dominio"
+				},
+				"report_advanced_field2": {
+					"field": "km",
+					"type": "report_advanced_field"
+				},
+				"report_advanced_field_label2": {
+					"type": "report_advanced_field_label",
+					"field": "km"
+				},
+				"report_advanced_field3": {
+					"field": "idComponente",
+					"type": "report_advanced_field"
+				},
+				"report_advanced_field_label3": {
+					"type": "report_advanced_field_label",
+					"field": "idComponente"
+				},
+				"report_advanced_field4": {
+					"field": "km_p",
+					"type": "report_advanced_field"
+				},
+				"report_advanced_field_label4": {
+					"type": "report_advanced_field_label",
+					"field": "km_p"
+				},
+				"report_advanced_field5": {
+					"field": "km ult.Serv.",
+					"type": "report_advanced_field"
+				},
+				"report_advanced_field_label5": {
+					"type": "report_advanced_field_label",
+					"field": "km ult.Serv."
+				},
+				"report_advanced_field6": {
+					"field": "km_s",
+					"type": "report_advanced_field"
+				},
+				"report_advanced_field_label6": {
+					"type": "report_advanced_field_label",
+					"field": "km_s"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				}
+			},
+			"dbProps": {},
+			"version": 11,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "rprint",
+			"type": "rprint",
+			"layoutId": "basic",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": [
+								"print_header",
+								"print_subheader"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"print_pdf"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"print_pages"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "report-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"report_grid_field",
+								"report_grid_field1",
+								"report_grid_field2",
+								"report_grid_field3",
+								"report_grid_field5",
+								"report_grid_field4",
+								"report_grid_field6"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1,
+					"reportInfo": {
+						"groupFields": [],
+						"fields": [
+							{
+								"field": "km_s",
+								"grid": true,
+								"avg": false,
+								"max": false,
+								"min": false,
+								"sum": false
+							},
+							{
+								"field": "idVehiculo",
+								"grid": true,
+								"avg": false,
+								"max": false,
+								"min": true,
+								"sum": false
+							},
+							{
+								"field": "km",
+								"grid": true,
+								"avg": false,
+								"max": false,
+								"min": false,
+								"sum": false
+							},
+							{
+								"field": "idComponente",
+								"grid": true,
+								"avg": false,
+								"max": false,
+								"min": false,
+								"sum": false
+							},
+							{
+								"field": "km_p",
+								"grid": true,
+								"avg": false,
+								"max": false,
+								"min": false,
+								"sum": false
+							},
+							{
+								"field": "km ult.Serv.",
+								"grid": true,
+								"avg": false,
+								"max": false,
+								"min": false,
+								"sum": false
+							},
+							{
+								"field": "dominio",
+								"grid": true,
+								"avg": false,
+								"max": false,
+								"min": false,
+								"sum": false
+							}
+						],
+						"showData": true,
+						"pageSummary": false,
+						"globalSummary": false,
+						"crosstab": false,
+						"colors": [
+							{
+								"header": "",
+								"summary": ""
+							},
+							{
+								"header": "",
+								"summary": ""
+							},
+							{
+								"header": "",
+								"summary": ""
+							},
+							{
+								"header": "",
+								"summary": ""
+							},
+							{
+								"header": "",
+								"summary": ""
+							},
+							{
+								"header": "",
+								"summary": ""
+							},
+							{
+								"header": "",
+								"summary": ""
+							}
+						],
+						"horizSummary": false,
+						"layout": "plain",
+						"vertSummary": false
+					}
+				}
+			},
+			"items": {
+				"print_header": {
+					"type": "print_header"
+				},
+				"print_subheader": {
+					"type": "print_subheader"
+				},
+				"print_pages": {
+					"type": "print_pages"
+				},
+				"report_grid_field": {
+					"field": "idVehiculo",
+					"type": "report_grid_field",
+					"reportAvg": false,
+					"reportMin": true,
+					"reportMax": false,
+					"reportSum": false
+				},
+				"report_grid_field1": {
+					"field": "km",
+					"type": "report_grid_field",
+					"reportAvg": false,
+					"reportMin": false,
+					"reportMax": false,
+					"reportSum": false
+				},
+				"report_grid_field2": {
+					"field": "idComponente",
+					"type": "report_grid_field",
+					"reportAvg": false,
+					"reportMin": false,
+					"reportMax": false,
+					"reportSum": false
+				},
+				"report_grid_field3": {
+					"field": "km_p",
+					"type": "report_grid_field",
+					"reportAvg": false,
+					"reportMin": false,
+					"reportMax": false,
+					"reportSum": false
+				},
+				"report_grid_field4": {
+					"field": "km_s",
+					"type": "report_grid_field",
+					"reportAvg": false,
+					"reportMin": false,
+					"reportMax": false,
+					"reportSum": false
+				},
+				"report_grid_field5": {
+					"field": "km ult.Serv.",
+					"type": "report_grid_field",
+					"reportAvg": false,
+					"reportMin": false,
+					"reportMax": false,
+					"reportSum": false
+				},
+				"print_pdf": {
+					"type": "print_pdf",
+					"targetPages": [],
+					"splitModes": [],
+					"scopes": []
+				},
+				"report_grid_field6": {
+					"field": "dominio",
+					"type": "report_grid_field",
+					"reportAvg": false,
+					"reportMin": false,
+					"reportMax": false,
+					"reportSum": false
+				}
+			},
+			"dbProps": {},
+			"version": 11,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "search",
+			"type": "search",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"top": {
+					"modelId": "search-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_header"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"above-grid": {
+					"modelId": "search-above-grid",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "search-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_search",
+								"search_reset",
+								"search_back_list",
+								"search_cancel"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-search",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_search_field",
+								"integrated_search_field1",
+								"integrated_search_field2",
+								"integrated_search_field3",
+								"integrated_search_field4",
+								"integrated_search_field5",
+								"integrated_search_field6"
+							],
+							"_t": "Map",
+							"_i": {},
+							"_s": 0
+						}
+					},
+					"deferredItems": [],
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"search_header": {
+					"type": "search_header"
+				},
+				"search_reset": {
+					"type": "search_reset"
+				},
+				"search_back_list": {
+					"type": "search_back_list"
+				},
+				"search_search": {
+					"type": "search_search"
+				},
+				"search_cancel": {
+					"type": "search_cancel"
+				},
+				"integrated_search_field": {
+					"field": "idVehiculo",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field1": {
+					"field": "km",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field2": {
+					"field": "idComponente",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field3": {
+					"field": "km_p",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field4": {
+					"field": "km_s",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field5": {
+					"field": "km ult.Serv.",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field6": {
+					"field": "dominio",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				}
+			},
+			"dbProps": {},
+			"version": 11,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Spanish": "Inf. Próx. Mant."
+	}
+}

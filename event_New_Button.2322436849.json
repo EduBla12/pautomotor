@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "New_Button",
+	"serverCode": "// Put your code here.\n$path = $button->saveTempFile( $params[\"pdf\"] );\n \n$mail = array();\n//$mail[\"to\"] = $params[\"email\"];\n$mail[\"to\"] = \"erblancotsjn@gmail.com\";\n$mail[\"subject\"] = \"PHPRunner PDF and Email demo\";\n$mail[\"body\"] = \"Check the results\";\n$attachment = array(\n   \"path\" => $path,\n\"name\" => $params[\"filename\"]\n);\n//$mail[\"attachments\"] = array( $attachment );\n \n$ret = runner_mail( $mail );\n \nif( $ret[\"mailed\"] ) \n{\n   $result[\"success\"] = true;\n}\nelse\n{\n   $result[\"message\"] = $ret[\"message\"];\n$result[\"success\"] = false;\n}",
+	"beforeJsCode": "//ajax.addPDF( 'pdf', {}, function() {\n//   return ctrl.dialog( {\n //     title: 'Hoja de Servicio',\n //     fields: [{\n //        name: 'mail',\n //        value: 'eblancotsjn@gmail.com'\n //     },\n //     {\n //        name: 'filename',\n //        value: 'results.pdf'\n //     }]\n //  });\n//});\n//return false;",
+	"afterJsCode": "// Put your code here.\nif( result.success ) {\n   ctrl.setMessage(\"sent ok\");\n} else {\n   ctrl.setMessage(\"error sending \" + result.message );\n}"
+}
