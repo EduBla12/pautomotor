@@ -130,7 +130,6 @@
 					"type": "add_reset"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -139,7 +138,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "export",
@@ -242,7 +242,6 @@
 					"type": "export_cancel"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -252,6 +251,7 @@
 			"imagePosition": "right",
 			"listTotals": 1,
 			"title": {},
+			"cardStyle": {},
 			"exportFormat": 2,
 			"exportDelimiter": ",",
 			"exportSelectDelimiter": false,
@@ -321,7 +321,6 @@
 					"type": "import_header"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -330,7 +329,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "list",
@@ -588,7 +588,6 @@
 					"type": "changepassword_link"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -597,7 +596,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "print",
@@ -693,7 +693,6 @@
 					"type": "print_pages"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -702,7 +701,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		}
 	],
 	"geoCoding": {

@@ -1,10 +1,11 @@
 {
-	"sql": "SELECT\nCOUNT(vehiculos.idVehiculo) AS cantidad,\nvestados.Estado\nFROM vehiculos\nINNER JOIN vestados ON vehiculos.idEstado = vestados.idEstado\nGROUP BY vestados.Estado",
+	"sql": "SELECT\n\tCOUNT(vehiculos.idVehiculo) AS cantidad,\n\tvestados.Estado\nFROM\n\tvehiculos\n\tINNER JOIN vestados ON vestados.idEstado = vehiculos.idEstado\nGROUP BY\n\tvestados.Estado\n",
 	"type": 3,
 	"connId": "pAutomotor_at_localhost",
 	"originalTable": "vehiculos",
 	"name": "vehiculos Estado",
 	"shortTableName": "vehiculos_estado",
+	"dbType": 0,
 	"caseSensitiveSearch": "",
 	"pageSizeSelectorRecords": [
 		"10",
@@ -55,6 +56,7 @@
 		{
 			"name": "cantidad",
 			"sqlExpression": "COUNT(vehiculos.idVehiculo)",
+			"index": 1,
 			"strField": "cantidad",
 			"type": 3,
 			"viewFormats": [
@@ -101,6 +103,7 @@
 		{
 			"name": "Estado",
 			"sqlExpression": "vestados.Estado",
+			"index": 2,
 			"strField": "Estado",
 			"type": 200,
 			"viewFormats": [
@@ -149,6 +152,215 @@
 	"afterAddDetail": 7,
 	"sortByFields": {
 		"sortOrder": []
+	},
+	"dbTableInfo": {
+		"type": 0,
+		"foreignKeys": [],
+		"fields": [
+			{
+				"name": "idVehiculo",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": true,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "idMarca",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "idTipo",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "idEstado",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "idRespons",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "Modelo",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "Combustible",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "Dominio",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "anio",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "vtv",
+				"type": 7,
+				"size": 0,
+				"scale": 0,
+				"typeName": "date",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "seguro",
+				"type": 7,
+				"size": 0,
+				"scale": 0,
+				"typeName": "date",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "foto",
+				"type": 200,
+				"size": 2000,
+				"scale": 0,
+				"typeName": "varchar(2000)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "km",
+				"type": 5,
+				"size": 0,
+				"scale": 0,
+				"typeName": "double",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "mes",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "idCiudad",
+				"type": 200,
+				"size": 3,
+				"scale": 0,
+				"typeName": "varchar(3)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "idDependencia",
+				"type": 200,
+				"size": 5,
+				"scale": 0,
+				"typeName": "varchar(5)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "matafuegos",
+				"type": 7,
+				"size": 0,
+				"scale": 0,
+				"typeName": "date",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "tipomatafuegos",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			}
+		],
+		"primaryKeys": [
+			"idVehiculo"
+		],
+		"uniqueFields": [],
+		"name": "vehiculos"
 	},
 	"pages": [
 		{
@@ -372,7 +584,6 @@
 					"type": "changepassword_link"
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image"
@@ -381,7 +592,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "search",
@@ -509,7 +721,6 @@
 					"required": false
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image"
@@ -518,7 +729,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		}
 	],
 	"geoCoding": {

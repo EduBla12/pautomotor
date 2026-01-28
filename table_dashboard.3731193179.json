@@ -346,7 +346,8 @@
 						}
 					},
 					"deferredItems": [],
-					"recsPerRow": 1
+					"recsPerRow": 1,
+					"dashGap": "16px"
 				}
 			},
 			"items": {
@@ -415,7 +416,8 @@
 					"initialTab": 0,
 					"hiddenDetails": {},
 					"detailsOptions": [],
-					"mapUpdateGridWhenMoved": true
+					"mapUpdateGridWhenMoved": true,
+					"headerControls": true
 				},
 				"vehiculos_chart_chart": {
 					"type": "dashboard-item",
@@ -437,7 +439,8 @@
 					"initialTab": 0,
 					"hiddenDetails": {},
 					"detailsOptions": [],
-					"mapUpdateGridWhenMoved": true
+					"mapUpdateGridWhenMoved": true,
+					"headerControls": true
 				},
 				"vehicxanio_chart": {
 					"type": "dashboard-item",
@@ -459,7 +462,8 @@
 					"initialTab": 0,
 					"hiddenDetails": {},
 					"detailsOptions": [],
-					"mapUpdateGridWhenMoved": true
+					"mapUpdateGridWhenMoved": true,
+					"headerControls": true
 				},
 				"futmant_report_report": {
 					"type": "dashboard-item",
@@ -481,13 +485,13 @@
 					"initialTab": 0,
 					"hiddenDetails": {},
 					"detailsOptions": [],
-					"mapUpdateGridWhenMoved": true
+					"mapUpdateGridWhenMoved": true,
+					"headerControls": true
 				},
 				"changepassword_link": {
 					"type": "changepassword_link"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -496,7 +500,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "search",
@@ -609,7 +614,6 @@
 					"type": "search_cancel"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -618,7 +622,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		}
 	],
 	"geoCoding": {

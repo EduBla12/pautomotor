@@ -934,7 +934,6 @@
 					"type": "changepassword_link"
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image"
@@ -943,7 +942,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "rprint",
@@ -1243,7 +1243,6 @@
 					"reportSum": false
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image"
@@ -1252,7 +1251,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "search",
@@ -1415,7 +1415,6 @@
 					"required": false
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image"
@@ -1424,7 +1423,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		}
 	],
 	"geoCoding": {

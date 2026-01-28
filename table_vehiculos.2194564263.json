@@ -1,5 +1,5 @@
 {
-	"sql": "SELECT\n\tidVehiculo,\n\tidMarca,\n\tidTipo,\n\tidEstado,\n\tidRespons,\n\tModelo,\n\tCombustible,\n\tDominio,\n\tanio,\n\tvtv,\n\tseguro,\n\tfoto,\n\tkm,\n\tmes,\n\tidCiudad,\n\tidDependencia\nFROM\n\tvehiculos\n",
+	"sql": "SELECT\r\n\tidVehiculo,\r\n\tidMarca,\r\n\tidTipo,\r\n\tidEstado,\r\n\tidRespons,\r\n\tModelo,\r\n\tCombustible,\r\n\tDominio,\r\n\tanio,\r\n\tvtv,\r\n\tseguro,\r\n\tfoto,\r\n\tkm,\r\n\tmes,\r\n\tidCiudad,\r\n\tidDependencia,\r\n\tmatafuegos,\r\n\ttipomatafuegos\r\nFROM\r\n\tvehiculos",
 	"connId": "pAutomotor_at_localhost",
 	"originalTable": "vehiculos",
 	"name": "vehiculos",
@@ -130,7 +130,7 @@
 		"50",
 		"100",
 		"500",
-		"-1"
+		"1"
 	],
 	"pageSizeSelectorGroups": [
 		"1",
@@ -139,7 +139,7 @@
 		"10",
 		"50",
 		"100",
-		"-1"
+		"1"
 	],
 	"pageOrientation": 1,
 	"keyFields": [
@@ -899,6 +899,49 @@
 				"Spanish": ""
 			},
 			"tableName": "vehiculos"
+		},
+		{
+			"name": "matafuegos",
+			"sqlExpression": "matafuegos",
+			"index": 17,
+			"strField": "matafuegos",
+			"type": 7,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"Spanish": "Venc. Matafuegos "
+			},
+			"tableName": "vehiculos"
+		},
+		{
+			"name": "tipomatafuegos",
+			"sqlExpression": "tipomatafuegos",
+			"index": 18,
+			"strField": "tipomatafuegos",
+			"type": 3,
+			"viewFormats": [
+				{
+					"format": "Checkbox"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Checkbox"
+				}
+			],
+			"label": {
+				"Spanish": "Matafuegos Nuevo"
+			},
+			"tableName": "vehiculos"
 		}
 	],
 	"warnLeavingEdit": true,
@@ -1088,6 +1131,28 @@
 				"autoinc": false,
 				"defaultValueSQL": null,
 				"defaultValue": ""
+			},
+			{
+				"name": "matafuegos",
+				"type": 7,
+				"size": 0,
+				"scale": 0,
+				"typeName": "date",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "tipomatafuegos",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
 			}
 		],
 		"primaryKeys": [
@@ -1264,7 +1329,8 @@
 									"cell": "c3"
 								},
 								{
-									"cell": "c"
+									"cell": "c",
+									"colspan": 2
 								}
 							],
 							"section": ""
@@ -1276,7 +1342,22 @@
 									"cell": "c6"
 								},
 								{
-									"cell": "c7"
+									"cell": "c7",
+									"colspan": 2
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c10"
+								},
+								{
+									"cell": "c11"
+								},
+								{
+									"cell": "c12"
 								}
 							]
 						},
@@ -1285,7 +1366,7 @@
 							"cells": [
 								{
 									"cell": "c5",
-									"colspan": 2
+									"colspan": 3
 								}
 							]
 						},
@@ -1293,6 +1374,18 @@
 							"cells": [
 								{
 									"cell": "c4",
+									"colspan": 3
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c8"
+								},
+								{
+									"cell": "c9",
 									"colspan": 2
 								}
 							],
@@ -1342,16 +1435,41 @@
 							"items": [
 								"integrated_edit_field13",
 								"integrated_edit_field4",
-								"integrated_edit_field14",
-								"integrated_edit_field10"
+								"integrated_edit_field14"
 							]
 						},
 						"c7": {
 							"model": "c3",
 							"items": [
 								"integrated_edit_field15",
-								"integrated_edit_field9",
 								"integrated_edit_field12"
+							]
+						},
+						"c8": {
+							"model": "c3",
+							"items": []
+						},
+						"c9": {
+							"model": "c3",
+							"items": []
+						},
+						"c10": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field10"
+							]
+						},
+						"c11": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field9"
+							]
+						},
+						"c12": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field16"
 							]
 						}
 					},
@@ -1526,9 +1644,18 @@
 				},
 				"changepassword_link": {
 					"type": "changepassword_link"
+				},
+				"integrated_edit_field": {
+					"field": "matafuegos",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "tipomatafuegos",
+					"type": "integrated_edit_field",
+					"orientation": 0
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image",
@@ -1541,7 +1668,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "edit",
@@ -1722,7 +1850,8 @@
 									"cell": "c3"
 								},
 								{
-									"cell": "c"
+									"cell": "c",
+									"colspan": 2
 								}
 							],
 							"section": ""
@@ -1734,7 +1863,22 @@
 									"cell": "c6"
 								},
 								{
-									"cell": "c7"
+									"cell": "c7",
+									"colspan": 2
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c10"
+								},
+								{
+									"cell": "c11"
+								},
+								{
+									"cell": "c12"
 								}
 							]
 						},
@@ -1743,7 +1887,7 @@
 							"cells": [
 								{
 									"cell": "c5",
-									"colspan": 2
+									"colspan": 3
 								}
 							]
 						},
@@ -1751,6 +1895,18 @@
 							"cells": [
 								{
 									"cell": "c4",
+									"colspan": 3
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c8"
+								},
+								{
+									"cell": "c9",
 									"colspan": 2
 								}
 							],
@@ -1800,16 +1956,41 @@
 							"items": [
 								"integrated_edit_field13",
 								"integrated_edit_field4",
-								"integrated_edit_field14",
-								"integrated_edit_field10"
+								"integrated_edit_field14"
 							]
 						},
 						"c7": {
 							"model": "c3",
 							"items": [
 								"integrated_edit_field15",
-								"integrated_edit_field9",
 								"integrated_edit_field12"
+							]
+						},
+						"c8": {
+							"model": "c3",
+							"items": []
+						},
+						"c9": {
+							"model": "c3",
+							"items": []
+						},
+						"c10": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field10"
+							]
+						},
+						"c11": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field9"
+							]
+						},
+						"c12": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field16"
 							]
 						}
 					},
@@ -1853,127 +2034,6 @@
 				"edit_view": {
 					"type": "edit_view"
 				},
-				"integrated_edit_field2": {
-					"field": "idTipo",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field3": {
-					"field": "idEstado",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field6": {
-					"field": "Combustible",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field13": {
-					"field": "mes",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field4": {
-					"field": "idRespons",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field14": {
-					"field": "idCiudad",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field10": {
-					"field": "seguro",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false,
-					"label": {
-						"field": "seguro",
-						"table": "vehiculos",
-						"type": 3
-					}
-				},
-				"integrated_edit_field1": {
-					"field": "idMarca",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field5": {
-					"field": "Modelo",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field7": {
-					"field": "Dominio",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field8": {
-					"field": "anio",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field15": {
-					"field": "idDependencia",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field9": {
-					"field": "vtv",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"label": {
-						"field": "vtv",
-						"table": "vehiculos",
-						"type": 3
-					},
-					"updateOnEdit": false
-				},
-				"integrated_edit_field12": {
-					"field": "km",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"details_preview": {
-					"type": "details_preview",
-					"table": 2149738524,
-					"items": [],
-					"popup": false,
-					"pageId": "list"
-				},
-				"details_preview1": {
-					"type": "details_preview",
-					"table": 4045591651,
-					"items": [],
-					"popup": false,
-					"pageId": "list"
-				},
-				"details_preview2": {
-					"type": "details_preview",
-					"table": 3864408098,
-					"items": [],
-					"popup": false,
-					"pageId": "list"
-				},
-				"integrated_edit_field11": {
-					"field": "foto",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
 				"logo": {
 					"type": "logo"
 				},
@@ -2005,9 +2065,136 @@
 				},
 				"changepassword_link": {
 					"type": "changepassword_link"
+				},
+				"integrated_edit_field2": {
+					"field": "idTipo",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field3": {
+					"field": "idEstado",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field6": {
+					"field": "Combustible",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field1": {
+					"field": "idMarca",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field5": {
+					"field": "Modelo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "Dominio",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "anio",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"details_preview": {
+					"type": "details_preview",
+					"table": 2149738524,
+					"items": [],
+					"popup": false,
+					"pageId": "list"
+				},
+				"details_preview1": {
+					"type": "details_preview",
+					"table": 4045591651,
+					"items": [],
+					"popup": false,
+					"pageId": "list"
+				},
+				"details_preview2": {
+					"type": "details_preview",
+					"table": 3864408098,
+					"items": [],
+					"popup": false,
+					"pageId": "list"
+				},
+				"integrated_edit_field11": {
+					"field": "foto",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field13": {
+					"field": "mes",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "idRespons",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field14": {
+					"field": "idCiudad",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field15": {
+					"field": "idDependencia",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field12": {
+					"field": "km",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field10": {
+					"field": "seguro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"label": {
+						"field": "seguro",
+						"table": "vehiculos",
+						"type": 3
+					}
+				},
+				"integrated_edit_field9": {
+					"field": "vtv",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "vtv",
+						"table": "vehiculos",
+						"type": 3
+					},
+					"updateOnEdit": false
+				},
+				"integrated_edit_field": {
+					"field": "matafuegos",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "tipomatafuegos",
+					"type": "integrated_edit_field",
+					"orientation": 0
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image",
@@ -2024,7 +2211,8 @@
 			"listTotals": 1,
 			"title": {
 				"Spanish": "Vehiculos, Editar [{%Modelo}], Id {%idVehiculo}"
-			}
+			},
+			"cardStyle": {}
 		},
 		{
 			"id": "export",
@@ -2113,7 +2301,9 @@
 								"export_field12",
 								"export_field11",
 								"export_field13",
-								"export_field14"
+								"export_field14",
+								"export_field15",
+								"export_field16"
 							],
 							"_t": "Map",
 							"_i": {},
@@ -2230,9 +2420,16 @@
 				"export_field14": {
 					"field": "idDependencia",
 					"type": "export_field"
+				},
+				"export_field15": {
+					"field": "matafuegos",
+					"type": "export_field"
+				},
+				"export_field16": {
+					"field": "tipomatafuegos",
+					"type": "export_field"
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image"
@@ -2242,6 +2439,7 @@
 			"imagePosition": "right",
 			"listTotals": 1,
 			"title": {},
+			"cardStyle": {},
 			"exportFormat": 2,
 			"exportDelimiter": ",",
 			"exportSelectDelimiter": false,
@@ -2334,7 +2532,9 @@
 								"import_field12",
 								"import_field11",
 								"import_field13",
-								"import_field14"
+								"import_field14",
+								"import_field15",
+								"import_field16"
 							],
 							"_t": "Map",
 							"_i": {},
@@ -2408,9 +2608,16 @@
 				"import_field14": {
 					"field": "idDependencia",
 					"type": "import_field"
+				},
+				"import_field15": {
+					"field": "matafuegos",
+					"type": "import_field"
+				},
+				"import_field16": {
+					"field": "tipomatafuegos",
+					"type": "import_field"
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image"
@@ -2419,7 +2626,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "list",
@@ -3254,6 +3462,8 @@
 					"type": "search_panel",
 					"items": [
 						"search_panel_field",
+						"search_panel_field17",
+						"search_panel_field16",
 						"search_panel_field15",
 						"search_panel_field14",
 						"search_panel_field13",
@@ -3775,9 +3985,16 @@
 				},
 				"changepassword_link": {
 					"type": "changepassword_link"
+				},
+				"search_panel_field16": {
+					"field": "matafuegos",
+					"type": "search_panel_field"
+				},
+				"search_panel_field17": {
+					"field": "tipomatafuegos",
+					"type": "search_panel_field"
 				}
 			},
-			"dbProps": {},
 			"spreadsheetGrid": false,
 			"version": 11,
 			"pageWidth": "compact",
@@ -3793,7 +4010,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "masterlist",
@@ -3867,7 +4085,9 @@
 								"simple_grid_field11",
 								"simple_grid_field13",
 								"simple_grid_field14",
-								"simple_grid_field15"
+								"simple_grid_field15",
+								"simple_grid_field16",
+								"simple_grid_field17"
 							],
 							"_t": "Map",
 							"_i": {},
@@ -3955,9 +4175,16 @@
 				"simple_grid_field15": {
 					"field": "idDependencia",
 					"type": "simple_grid_field"
+				},
+				"simple_grid_field16": {
+					"field": "matafuegos",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field17": {
+					"field": "tipomatafuegos",
+					"type": "simple_grid_field"
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image"
@@ -3966,7 +4193,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "masterprint",
@@ -4039,7 +4267,9 @@
 								"simple_grid_field11",
 								"simple_grid_field13",
 								"simple_grid_field14",
-								"simple_grid_field15"
+								"simple_grid_field15",
+								"simple_grid_field16",
+								"simple_grid_field17"
 							],
 							"_t": "Map",
 							"_i": {},
@@ -4124,9 +4354,16 @@
 				"simple_grid_field15": {
 					"field": "idDependencia",
 					"type": "simple_grid_field"
+				},
+				"simple_grid_field16": {
+					"field": "matafuegos",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field17": {
+					"field": "tipomatafuegos",
+					"type": "simple_grid_field"
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image"
@@ -4135,7 +4372,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "print",
@@ -4260,7 +4498,9 @@
 								"simple_grid_field9",
 								"simple_grid_field10",
 								"simple_grid_field12",
-								"simple_grid_field11"
+								"simple_grid_field11",
+								"simple_grid_field16",
+								"simple_grid_field17"
 							],
 							"_t": "Map",
 							"_i": {},
@@ -4405,9 +4645,16 @@
 					"table": 3229515823,
 					"items": [],
 					"popup": false
+				},
+				"simple_grid_field16": {
+					"field": "matafuegos",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field17": {
+					"field": "tipomatafuegos",
+					"type": "simple_grid_field"
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image"
@@ -4416,7 +4663,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "search",
@@ -4517,7 +4765,9 @@
 								"integrated_search_field12",
 								"integrated_search_field11",
 								"integrated_search_field13",
-								"integrated_search_field14"
+								"integrated_search_field14",
+								"integrated_search_field15",
+								"integrated_search_field16"
 							],
 							"_t": "Map",
 							"_i": {},
@@ -4633,9 +4883,18 @@
 					"type": "integrated_search_field",
 					"orientation": 0,
 					"required": false
+				},
+				"integrated_search_field15": {
+					"field": "matafuegos",
+					"type": "integrated_search_field",
+					"orientation": 0
+				},
+				"integrated_search_field16": {
+					"field": "tipomatafuegos",
+					"type": "integrated_search_field",
+					"orientation": 0
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image"
@@ -4644,7 +4903,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "view",
@@ -4805,7 +5065,8 @@
 									"cell": "c3"
 								},
 								{
-									"cell": "c"
+									"cell": "c",
+									"colspan": 2
 								}
 							],
 							"section": ""
@@ -4814,8 +5075,34 @@
 							"section": "",
 							"cells": [
 								{
-									"cell": "c5",
+									"cell": "c6"
+								},
+								{
+									"cell": "c7",
 									"colspan": 2
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c10"
+								},
+								{
+									"cell": "c11"
+								},
+								{
+									"cell": "c12"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c5",
+									"colspan": 3
 								}
 							]
 						},
@@ -4823,7 +5110,7 @@
 							"cells": [
 								{
 									"cell": "c4",
-									"colspan": 2
+									"colspan": 3
 								}
 							],
 							"section": ""
@@ -4831,10 +5118,11 @@
 						{
 							"cells": [
 								{
-									"cell": "c6"
+									"cell": "c8"
 								},
 								{
-									"cell": "c7"
+									"cell": "c9",
+									"colspan": 2
 								}
 							],
 							"section": ""
@@ -4846,11 +5134,7 @@
 							"items": [
 								"integrated_edit_field2",
 								"integrated_edit_field3",
-								"integrated_edit_field6",
-								"integrated_edit_field13",
-								"integrated_edit_field4",
-								"integrated_edit_field14",
-								"integrated_edit_field10"
+								"integrated_edit_field6"
 							],
 							"_t": "Map",
 							"_i": {},
@@ -4862,10 +5146,7 @@
 								"integrated_edit_field1",
 								"integrated_edit_field5",
 								"integrated_edit_field7",
-								"integrated_edit_field8",
-								"integrated_edit_field15",
-								"integrated_edit_field9",
-								"integrated_edit_field12"
+								"integrated_edit_field8"
 							],
 							"_t": "Map",
 							"_i": {},
@@ -4876,8 +5157,7 @@
 							"items": [
 								"details_preview",
 								"details_preview1",
-								"details_preview2",
-								"details_preview3"
+								"details_preview2"
 							]
 						},
 						"c5": {
@@ -4888,11 +5168,45 @@
 						},
 						"c6": {
 							"model": "c3",
-							"items": []
+							"items": [
+								"integrated_edit_field13",
+								"integrated_edit_field4",
+								"integrated_edit_field14"
+							]
 						},
 						"c7": {
 							"model": "c3",
+							"items": [
+								"integrated_edit_field15",
+								"integrated_edit_field12"
+							]
+						},
+						"c8": {
+							"model": "c3",
 							"items": []
+						},
+						"c9": {
+							"model": "c3",
+							"items": []
+						},
+						"c10": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field10"
+							]
+						},
+						"c11": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field9"
+							]
+						},
+						"c12": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field16"
+							]
 						}
 					},
 					"deferredItems": [],
@@ -4932,6 +5246,38 @@
 					"splitModes": [],
 					"scopes": []
 				},
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"changepassword_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
 				"integrated_edit_field2": {
 					"field": "idTipo",
 					"type": "integrated_edit_field",
@@ -4949,34 +5295,6 @@
 					"type": "integrated_edit_field",
 					"orientation": 0,
 					"updateOnEdit": false
-				},
-				"integrated_edit_field13": {
-					"field": "mes",
-					"type": "integrated_edit_field",
-					"orientation": 0
-				},
-				"integrated_edit_field4": {
-					"field": "idRespons",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field14": {
-					"field": "idCiudad",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field10": {
-					"field": "seguro",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false,
-					"label": {
-						"field": "seguro",
-						"table": "vehiculos",
-						"type": 3
-					}
 				},
 				"integrated_edit_field1": {
 					"field": "idMarca",
@@ -4996,29 +5314,6 @@
 				},
 				"integrated_edit_field8": {
 					"field": "anio",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field15": {
-					"field": "idDependencia",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"updateOnEdit": false
-				},
-				"integrated_edit_field9": {
-					"field": "vtv",
-					"type": "integrated_edit_field",
-					"orientation": 0,
-					"label": {
-						"field": "vtv",
-						"table": "vehiculos",
-						"type": 3
-					},
-					"updateOnEdit": false
-				},
-				"integrated_edit_field12": {
-					"field": "km",
 					"type": "integrated_edit_field",
 					"orientation": 0,
 					"updateOnEdit": false
@@ -5050,47 +5345,68 @@
 					"orientation": 0,
 					"updateOnEdit": false
 				},
-				"logo": {
-					"type": "logo"
+				"integrated_edit_field13": {
+					"field": "mes",
+					"type": "integrated_edit_field",
+					"orientation": 0
 				},
-				"menu": {
-					"type": "menu"
+				"integrated_edit_field4": {
+					"field": "idRespons",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
 				},
-				"username_button": {
-					"type": "username_button",
-					"items": [
-						"userinfo_link",
-						"logout_link",
-						"changepassword_link"
-					]
+				"integrated_edit_field14": {
+					"field": "idCiudad",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
 				},
-				"loginform_login": {
-					"type": "loginform_login"
+				"integrated_edit_field15": {
+					"field": "idDependencia",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
 				},
-				"userinfo_link": {
-					"type": "userinfo_link"
+				"integrated_edit_field12": {
+					"field": "km",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
 				},
-				"logout_link": {
-					"type": "logout_link"
+				"integrated_edit_field10": {
+					"field": "seguro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"label": {
+						"field": "seguro",
+						"table": "vehiculos",
+						"type": 3
+					}
 				},
-				"expand_menu_button": {
-					"type": "expand_menu_button"
+				"integrated_edit_field9": {
+					"field": "vtv",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "vtv",
+						"table": "vehiculos",
+						"type": 3
+					},
+					"updateOnEdit": false
 				},
-				"collapse_button": {
-					"type": "collapse_button"
+				"integrated_edit_field": {
+					"field": "matafuegos",
+					"type": "integrated_edit_field",
+					"orientation": 0
 				},
-				"details_preview3": {
-					"type": "details_preview",
-					"table": 3229515823,
-					"items": [],
-					"popup": false,
-					"pageId": "list1"
-				},
-				"changepassword_link": {
-					"type": "changepassword_link"
+				"integrated_edit_field16": {
+					"field": "tipomatafuegos",
+					"type": "integrated_edit_field",
+					"orientation": 0
 				}
 			},
-			"dbProps": {},
 			"version": 11,
 			"imageItem": {
 				"type": "page_image",
@@ -5105,7 +5421,8 @@
 			"listTotals": 1,
 			"title": {
 				"Spanish": "Vehiculos {%Modelo}, Id {%idVehiculo}"
-			}
+			},
+			"cardStyle": {}
 		}
 	],
 	"geoCoding": {

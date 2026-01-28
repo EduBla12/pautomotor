@@ -1,6 +1,6 @@
 {
 	"app": "PHPRunner",
-	"programVersion": 2,
+	"programVersion": 3,
 	"versionName": "11.1",
 	"build": 40608,
 	"appUser": "PHPRunner 10.9",
@@ -329,7 +329,13 @@
 			"SMTPPort": 465,
 			"SMTPUser": "erblanco12@gmail.com",
 			"SMTPPassword": "made3851",
-			"securityProtocol": 1
+			"securityProtocol": 1,
+			"provider": 0,
+			"oauthUserEmail": "",
+			"oauthSettingsJson": "",
+			"oauthClientId": "",
+			"oauthClientSecret": "",
+			"oauthTenantId": ""
 		},
 		"advancedSecurity": {
 			"allowGuestLogin": false
@@ -407,6 +413,7 @@
 	],
 	"lastFtpLocation": "ftploc5",
 	"visualStudioVersion": 10,
+	"targetFramework": "4.5.2",
 	"lcid": 22538,
 	"defaultLanguage": "Spanish",
 	"languages": [
@@ -435,8 +442,7 @@
 						"name": "prod",
 						"code": "$host = 'localhost';\n$user = 'adminag';\n$pwd = 'enterprise';\n$port = 3306;\n$sys_dbname = 'pautomotor';"
 					}
-				],
-				"selectedCustomConn": "prod"
+				]
 			}
 		},
 		{
@@ -456,6 +462,7 @@
 		}
 	],
 	"defaultConnID": "pAutomotor_at_localhost",
+	"phpSpreadsheet": true,
 	"landingSettings": {
 		"table": "Dashboard",
 		"pageId": "dashboard",
@@ -1303,7 +1310,6 @@
 					"type": "changepassword_link"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1312,7 +1318,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "admin_rights_list",
@@ -2022,7 +2029,6 @@
 					"type": "changepassword_link"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2031,7 +2037,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "login",
@@ -2250,7 +2257,6 @@
 					"type": "login_welcome"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image",
@@ -2265,7 +2271,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "menu",
@@ -2591,7 +2598,6 @@
 					"type": "changepassword_link"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2600,7 +2606,9 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {},
+			"welcomeStyle": 0
 		},
 		{
 			"id": "userinfo",
@@ -2854,7 +2862,6 @@
 					"type": "changepassword_link"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2863,7 +2870,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "changepwd",
@@ -3074,7 +3082,6 @@
 					"type": "changepwd_header"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -3083,7 +3090,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		},
 		{
 			"id": "changepwd_success",
@@ -3194,7 +3202,6 @@
 					"type": "changepwd_success_header"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -3203,7 +3210,8 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {}
+			"title": {},
+			"cardStyle": {}
 		}
 	],
 	"eventHandlers": [
