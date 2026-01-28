@@ -404,11 +404,12 @@
 				"type": 0,
 				"enabled": false
 			},
-			"threads": 4,
+			"threads": 6,
 			"serverDbConnections": {
-				"conn": "Prod"
+				"conn": "Prod",
+				"pAutomotor_at_localhost": "prod"
 			},
-			"url": "https://pa.desarrolloag.com.ar"
+			"url": "https://pa.proyectosag.com.ar"
 		}
 	],
 	"lastFtpLocation": "ftploc5",
