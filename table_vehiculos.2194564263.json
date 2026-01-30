@@ -5118,11 +5118,8 @@
 						{
 							"cells": [
 								{
-									"cell": "c8"
-								},
-								{
-									"cell": "c9",
-									"colspan": 2
+									"cell": "c13",
+									"colspan": 3
 								}
 							],
 							"section": ""
@@ -5181,14 +5178,6 @@
 								"integrated_edit_field12"
 							]
 						},
-						"c8": {
-							"model": "c3",
-							"items": []
-						},
-						"c9": {
-							"model": "c3",
-							"items": []
-						},
 						"c10": {
 							"model": "c3",
 							"items": [
@@ -5206,6 +5195,12 @@
 							"items": [
 								"integrated_edit_field",
 								"integrated_edit_field16"
+							]
+						},
+						"c13": {
+							"model": "c3",
+							"items": [
+								"details_preview3"
 							]
 						}
 					},
@@ -5405,6 +5400,13 @@
 					"field": "tipomatafuegos",
 					"type": "integrated_edit_field",
 					"orientation": 0
+				},
+				"details_preview3": {
+					"type": "details_preview",
+					"table": 3229515823,
+					"items": [],
+					"popup": false,
+					"pageId": "list1"
 				}
 			},
 			"version": 11,

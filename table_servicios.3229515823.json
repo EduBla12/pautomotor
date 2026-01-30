@@ -3126,7 +3126,9 @@
 						},
 						"footcell_field8": {
 							"model": "footcell_field",
-							"items": [],
+							"items": [
+								"grid_field_totals"
+							],
 							"field": "costo",
 							"columnName": "field"
 						}
@@ -3483,6 +3485,11 @@
 				},
 				"changepassword_link": {
 					"type": "changepassword_link"
+				},
+				"grid_field_totals": {
+					"type": "grid_field_totals",
+					"field": "costo",
+					"totals": "TOTAL"
 				}
 			},
 			"version": 11,
@@ -3492,7 +3499,7 @@
 			"imageBgColor": "#f2f2f2",
 			"controlsBgColor": "white",
 			"imagePosition": "right",
-			"listTotals": 1,
+			"listTotals": 0,
 			"title": {},
 			"cardStyle": {}
 		},
